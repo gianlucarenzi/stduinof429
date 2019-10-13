@@ -1,0 +1,28 @@
+Drill report for /home/debian/Progetti/ATARI/stduinof429/stduinof429.kicad_pcb
+Created on Sun 13 Oct 2019 22:13:16 CEST
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'stduinof429.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0,40mm  0,016"  (204 holes)
+    T2  0,50mm  0,020"  (2 holes)  (with 2 slots)
+    T3  0,55mm  0,022"  (2 holes)  (with 2 slots)
+    T4  0,80mm  0,031"  (2 holes)
+    T5  0,80mm  0,032"  (1 hole)
+    T6  1,02mm  0,040"  (52 holes)
+    T7  3,00mm  0,118"  (5 holes)
+
+    Total plated holes count 268
+
+
+Not plated through holes are merged with plated holes
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0
