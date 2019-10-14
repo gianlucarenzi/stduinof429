@@ -1224,11 +1224,6 @@ NoConn ~ 9900 4850
 NoConn ~ 9900 4950
 NoConn ~ 9900 5050
 NoConn ~ 9900 5150
-NoConn ~ 9900 8750
-NoConn ~ 9900 8850
-NoConn ~ 9900 8950
-NoConn ~ 9900 9050
-NoConn ~ 9900 9150
 NoConn ~ 9900 9250
 NoConn ~ 9900 9350
 NoConn ~ 9900 9850
@@ -1550,8 +1545,8 @@ Wire Notes Line
 	3425 8750 3575 8750
 Text Notes 3400 8675 1    60   ~ 12
 PORTG 8 bit
-Text Notes 10425 8200 1    60   ~ 12
-PORTD 13 pins (SHIELD)
+Text Notes 10450 7900 1    60   ~ 12
+PORTD 8 pins (SHIELD)
 Wire Notes Line
 	3525 8950 3425 8950
 Wire Notes Line
@@ -1670,20 +1665,35 @@ Text GLabel 1825 9025 0    39   Output ~ 0
 SPI_SEL3
 Wire Notes Line
 	1050 7400 1050 10650
-Text GLabel 9900 7850 2    39   BiDi ~ 0
+Text GLabel 9900 8750 2    39   BiDi ~ 0
 D8
-Text GLabel 9900 7950 2    39   BiDi ~ 0
+Text GLabel 9900 8850 2    39   BiDi ~ 0
 D9
-Text GLabel 9900 8050 2    39   BiDi ~ 0
+Text GLabel 9900 8950 2    39   BiDi ~ 0
 D10
-Text GLabel 9900 8150 2    39   BiDi ~ 0
+Text GLabel 9900 9050 2    39   BiDi ~ 0
 D11
-Text GLabel 9900 8250 2    39   BiDi ~ 0
+Text GLabel 9900 9150 2    39   BiDi ~ 0
 D12
+NoConn ~ 9900 7850
+NoConn ~ 9900 7950
+NoConn ~ 9900 8050
+NoConn ~ 9900 8150
+NoConn ~ 9900 8250
 Wire Notes Line
-	10075 7050 10300 7050
+	10075 7050 10325 7050
 Wire Notes Line
-	10300 7050 10300 8250
+	10325 7050 10325 7750
 Wire Notes Line
-	10300 8250 10125 8250
+	10325 7750 10075 7750
+Wire Notes Line
+	10100 8750 10325 8750
+Wire Notes Line
+	10325 8750 10325 9150
+Wire Notes Line
+	10325 9150 10100 9150
+Text Notes 10475 9475 1    60   ~ 12
+PORTE 6 pins (SHIELD)
+Text Notes 10625 8000 1    59   ~ 12
+OPTIMIZED FOR BUS ACCESS
 $EndSCHEMATC

@@ -31,6 +31,6 @@
 30;"P4";"Socket_Strip_Straight_1x08";1;"Digital";;;
 31;"P5,P6,P7,P8,P9";"MountingHole";5;"CONN_1";;;
 32;"OSHW";"OSHW-Logo2_14.6x12mm_SilkScreen";1;"OSHW-Logo2_14.6x12mm_SilkScreen";;;
-33;"P10";"IDC_02X20_2.54mm_Horizontal_PCB_2SIDES";1;"CONN_02X20";;;
-34;"P12";"USB_Micro-B_Large_Pads";1;"USB_OTG";;;
-35;"GPL";"Symbol_GNU-GPL_SilkScreen_Small";1;"Symbol_GNU-GPL_CopperTop_Small";;;
+33;"P12";"USB_Micro-B_Large_Pads";1;"USB_OTG";;;
+34;"GPL";"Symbol_GNU-GPL_SilkScreen_Small";1;"Symbol_GNU-GPL_CopperTop_Small";;;
+35;"P10";"IDC_02X20_2.54mm_Horizontal_PCB_2SIDES";1;"CONN_02X20";;;
