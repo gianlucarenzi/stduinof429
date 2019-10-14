@@ -580,6 +580,10 @@ int main(void)
 
 	GREEN_LED_OFF; // Now starts with led off. Only accessing external RAM will blink!
 
+#ifndef ATARI_PBI_DEVICE
+	SPI_ENABLED = 1;
+#endif
+
 	/* Now it's time to put 6502 CPU OUT OF RESET */
 	CPU_RESET_DEASSERT;
 
@@ -676,7 +680,7 @@ int main(void)
 #warning "ATARI ONLY SETUP! PBI DEVICE"
 		if (!(c & D1XX))
 		{
-			addr = ADDR_IN & 0x0F; // Check D1FF
+			addr = ADDR_IN & 0xFF; // Check D1FF
 			if (addr == 0xFF)
 			{
 				// 6502 CPU Needs to WRITE Data?
@@ -703,8 +707,6 @@ int main(void)
 				}
 			}
 		}
-#else
-		SPI_ENABLED = 1;
 #endif
 	}
 
