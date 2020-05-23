@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name RetroBitLab)(type KiCad)(uri /home/debian/Progetti/RetroBitLab-Library/RetroBitLab.pretty)(options "")(descr ""))
+  (lib (name Connectors_IEC_DIN)(type KiCad)(uri /home/debian/Progetti/RetroBitLab-Library/Connectors_IEC_DIN.pretty)(options "")(descr ""))
+)

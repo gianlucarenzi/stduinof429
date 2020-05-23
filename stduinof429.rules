@@ -1,0 +1,161 @@
+
+(rules PCB stduinof429
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout on)
+    (eu.mihosoft.freerouting.autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 2884)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.7)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.6)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clear 200.2)
+    (clear 125.0 (type smd_to_turn_gap))
+    (clear 50.0 (type smd_smd))
+  )
+  (padstack "Via[0-1]_600:400_um"
+    (shape
+      (circle F.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 600.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_600:400_um" "Via[0-1]_600:400_um" default
+  )
+  (via 
+    "Via[0-1]_600:400_um-kicad_default" "Via[0-1]_600:400_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_600:400_um-+5V" "Via[0-1]_600:400_um" +5V
+  )
+  (via 
+    "Via[0-1]_600:400_um-GND" "Via[0-1]_600:400_um" GND
+  )
+  (via 
+    "Via[0-1]_600:400_um-VCC5V" "Via[0-1]_600:400_um" VCC5V
+  )
+  (via 
+    "Via[0-1]_600:400_um-VCC_3V3" "Via[0-1]_600:400_um" "VCC_3V3"
+  )
+  (via_rule
+    default "Via[0-1]_600:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_600:400_um-kicad_default"
+  )
+  (via_rule
+    +5V "Via[0-1]_600:400_um-+5V"
+  )
+  (via_rule
+    GND "Via[0-1]_600:400_um-GND"
+  )
+  (via_rule
+    VCC5V "Via[0-1]_600:400_um-VCC5V"
+  )
+  (via_rule
+    "VCC_3V3" "Via[0-1]_600:400_um-VCC_3V3"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    GND "Net-(BOOT0_MEM1-Pad1)" "Net-(BOOT1_MEM1-Pad1)" VCC5V nRST "Net-(C5-Pad1)" "Net-(C6-Pad1)" "VCAP_2_MEM"
+    "VCAP_1_MEM" "VCC_3V3" "Net-(C10-Pad2)" "Net-(D1-Pad2)" "Net-(D2-Pad2)" "UART_RX" "UART_TX" "I2C_SDA"
+    "I2C_SCL" "SPI1_SCK" "SPI1_MISO" "SPI1_MOSI" "SPI_SEL0" D7 D6 D5
+    D4 D3 D2 D1 D0 mRD5 "LEDGRN_MEM" SWDIO
+    SWDCLK mA13 mA14 mA15 mA0 mA1 mA2 mA3
+    mA4 mA5 ~mRST mD0 mD1 ~mIRQ ~mHALT mD2
+    mD3 mD4 mD5 mD6 mD7 mA6 mA7 mA8
+    mA9 mPHI2 ~mS5 ~mS4 ~mD1XX mA10 mA11 mA12
+    ~mREF mRD4 ~mEXSEL ~mMPD ~mCCTL mR/~W "SPI_SEL1" "SPI_SEL2"
+    "SPI_SEL3" "Net-(R3-Pad1)" "Net-(R4-Pad1)" "Net-(R5-Pad2)" "Net-(R7-Pad1)" D8 D9 D10
+    D11 D12 "VCC_5V_USB" +5V "Net-(P12-Pad2)" "Net-(P12-Pad3)" "Net-(P12-Pad4)" "Net-(P9-Pad1)"
+    "Net-(P8-Pad1)" "Net-(P7-Pad1)" "Net-(P6-Pad1)" "Net-(P5-Pad1)" "Net-(U2-Pad4)" "Net-(U2-Pad5)" "Net-(U2-Pad7)" "Net-(U2-Pad11)"
+    "Net-(U2-Pad12)" "Net-(U2-Pad13)" "Net-(U2-Pad16)" "Net-(U2-Pad17)" "Net-(U2-Pad18)" "Net-(U2-Pad19)" "Net-(U2-Pad20)" "Net-(U2-Pad21)"
+    "Net-(U2-Pad24)" "Net-(U2-Pad25)" "Net-(U2-Pad26)" "Net-(U2-Pad27)" "Net-(U2-Pad28)" "Net-(U2-Pad43)" "Net-(U2-Pad44)" "Net-(U2-Pad45)"
+    "Net-(U2-Pad46)" "Net-(U2-Pad48)" "Net-(U2-Pad50)" "Net-(U2-Pad59)" "Net-(U2-Pad60)" "Net-(U2-Pad63)" "Net-(U2-Pad64)" "Net-(U2-Pad65)"
+    "Net-(U2-Pad68)" "Net-(U2-Pad69)" "Net-(U2-Pad70)" "Net-(U2-Pad73)" "Net-(U2-Pad74)" "Net-(U2-Pad75)" "Net-(U2-Pad76)" "Net-(U2-Pad77)"
+    "Net-(U2-Pad78)" "Net-(U2-Pad83)" "Net-(U2-Pad84)" "Net-(U2-Pad85)" "Net-(U2-Pad86)" "Net-(U2-Pad87)" "Net-(U2-Pad88)" "Net-(U2-Pad89)"
+    "Net-(U2-Pad92)" "Net-(U2-Pad93)" "Net-(U2-Pad94)" "Net-(U2-Pad95)" "Net-(U2-Pad96)" "Net-(U2-Pad97)" "Net-(U2-Pad98)" "Net-(U2-Pad99)"
+    "Net-(U2-Pad100)" "Net-(U2-Pad101)" "Net-(U2-Pad104)" "Net-(U2-Pad105)" "Net-(U2-Pad112)" "Net-(U2-Pad119)" "Net-(U2-Pad122)" "Net-(U2-Pad123)"
+    "Net-(U2-Pad128)" "Net-(U2-Pad129)" "Net-(U2-Pad130)" "Net-(U2-Pad138)" "Net-(U2-Pad152)" "Net-(U2-Pad153)" "Net-(U2-Pad154)" "Net-(U2-Pad155)"
+    "Net-(U2-Pad156)" "Net-(U2-Pad157)" "Net-(U2-Pad160)" "Net-(U2-Pad165)" "Net-(U2-Pad171)" "Net-(U2-Pad175)" "Net-(U2-Pad176)" /Vin
+    "Net-(P1-Pad1)"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class +5V
+    (clearance_class +5V)
+    (via_rule +5V)
+    (rule
+      (width 350.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class GND
+    (clearance_class GND)
+    (via_rule GND)
+    (rule
+      (width 400.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class VCC5V
+    (clearance_class VCC5V)
+    (via_rule VCC5V)
+    (rule
+      (width 350.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "VCC_3V3"
+    (clearance_class "VCC_3V3")
+    (via_rule VCC_3V3)
+    (rule
+      (width 350.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)
