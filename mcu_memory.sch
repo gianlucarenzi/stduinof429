@@ -1352,17 +1352,6 @@ Text Notes 3375 9775 0    39   ~ 8
 PB11
 Wire Wire Line
 	3800 7950 3125 7950
-$Comp
-L stduinof429-rescue:CONN_02X20-stduinof429-rescue P10
-U 1 1 5DA3A653
-P 4050 8900
-F 0 "P10" H 4050 9950 50  0000 C CNN
-F 1 "CONN_02X20" V 4050 8900 50  0000 C CNN
-F 2 "RetroBitLab:IDC_02X20_2.54mm_Horizontal_PCB_2SIDES" H 4050 7950 50  0001 C CNN
-F 3 "" H 4050 7950 50  0000 C CNN
-	1    4050 8900
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	3300 9525 3300 10050
 $Comp
@@ -1614,4 +1603,15 @@ Wire Wire Line
 	15050 3100 15050 3600
 Wire Wire Line
 	14500 600  14700 600 
+$Comp
+L Connector_Generic:Conn_02x20_Odd_Even P10
+U 1 1 605B226E
+P 4000 8850
+F 0 "P10" H 4050 10000 50  0000 C CNN
+F 1 "Conn_02x20_Odd_Even" H 4050 9900 50  0000 C CNN
+F 2 "RetroBitLab:IDC_02X20_2.54mm_Horizontal_PCB_2SIDES" H 4000 8850 50  0001 C CNN
+F 3 "~" H 4000 8850 50  0001 C CNN
+	1    4000 8850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
