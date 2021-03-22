@@ -1,13 +1,12 @@
 EESchema Schematic File Version 4
-LIBS:stduinof429-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
 Title "STM32Duino429"
-Date "lun. 30 mars 2015"
-Rev "1.0"
+Date "2021-03-22"
+Rev "1.1"
 Comp "RetroBit Lab"
 Comment1 "Arduino Shield Layout"
 Comment2 ""
@@ -15,7 +14,7 @@ Comment3 ""
 Comment4 "ARDUINO CONNECTORS"
 $EndDescr
 $Comp
-L stduinof429-rescue:CONN_8 P1
+L stduinof429-rescue:CONN_8-stduinof429-rescue P1
 U 1 1 5517C2C1
 P 9725 1875
 F 0 "P1" V 9675 1875 60  0000 C CNN
@@ -26,7 +25,7 @@ F 3 "" H 9725 1875 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L stduinof429-rescue:CONN_6 P2
+L stduinof429-rescue:CONN_6-stduinof429-rescue P2
 U 1 1 5517C323
 P 9725 2675
 F 0 "P2" V 9675 2675 60  0000 C CNN
@@ -37,7 +36,7 @@ F 3 "" H 9725 2675 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L stduinof429-rescue:CONN_8 P4
+L stduinof429-rescue:CONN_8-stduinof429-rescue P4
 U 1 1 5517C366
 P 10050 2575
 F 0 "P4" V 10000 2575 60  0000 C CNN
@@ -48,7 +47,7 @@ F 3 "" H 10050 2575 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L stduinof429-rescue:CONN_10 P3
+L stduinof429-rescue:CONN_10-stduinof429-rescue P3
 U 1 1 5517C46C
 P 10050 1575
 F 0 "P3" V 10000 1575 60  0000 C CNN
@@ -105,7 +104,7 @@ Text Label 11125 1525 2    60   ~ 0
 Text Label 11125 1325 2    60   ~ 0
 AREF
 $Comp
-L power1:GND #PWR01
+L stduinof429-rescue:GND-power1-stduinof429-rescue #PWR01
 U 1 1 5517CC27
 P 10475 3100
 F 0 "#PWR01" H 10475 3100 30  0001 C CNN
@@ -116,7 +115,7 @@ F 3 "" H 10475 3100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:GND #PWR02
+L stduinof429-rescue:GND-power1-stduinof429-rescue #PWR02
 U 1 1 5517CC7B
 P 9300 3100
 F 0 "#PWR02" H 9300 3100 30  0001 C CNN
@@ -127,7 +126,7 @@ F 3 "" H 9300 3100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:+3.3V #PWR03
+L stduinof429-rescue:+3.3V-power1-stduinof429-rescue #PWR03
 U 1 1 5517CCDA
 P 9175 1350
 F 0 "#PWR03" H 9175 1310 30  0001 C CNN
@@ -143,7 +142,7 @@ A4(SDA)
 Text Label 11125 1125 2    60   ~ 0
 A5(SCL)
 $Comp
-L stduinof429-rescue:CONN_1 P5
+L stduinof429-rescue:CONN_1-stduinof429-rescue P5
 U 1 1 551BBC06
 P 10875 650
 F 0 "P5" H 10955 650 40  0000 L CNN
@@ -154,7 +153,7 @@ F 3 "" H 10875 650 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L stduinof429-rescue:CONN_1 P6
+L stduinof429-rescue:CONN_1-stduinof429-rescue P6
 U 1 1 551BBD10
 P 10950 650
 F 0 "P6" H 11030 650 40  0000 L CNN
@@ -165,7 +164,7 @@ F 3 "" H 10950 650 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L stduinof429-rescue:CONN_1 P7
+L stduinof429-rescue:CONN_1-stduinof429-rescue P7
 U 1 1 551BBD30
 P 11025 650
 F 0 "P7" H 11105 650 40  0000 L CNN
@@ -176,7 +175,7 @@ F 3 "" H 11025 650 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L stduinof429-rescue:CONN_1 P8
+L stduinof429-rescue:CONN_1-stduinof429-rescue P8
 U 1 1 551BBD52
 P 11100 650
 F 0 "P8" H 11180 650 40  0000 L CNN
@@ -195,7 +194,7 @@ NoConn ~ 11100 800
 Text Notes 8550 750  0    60   ~ 0
 Shield for Arduino that uses\nthe same pin disposition\nlike "Uno" board Rev 3.
 $Comp
-L Regulator_Linear1:AZ1117-3.3 U1
+L stduinof429-rescue:AZ1117-3.3-Regulator_Linear1-stduinof429-rescue U1
 U 1 1 5DA23390
 P 2250 2025
 F 0 "U1" H 2100 2150 50  0000 C CNN
@@ -206,7 +205,7 @@ F 3 "" H 2250 2025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device1:C_Small C3
+L stduinof429-rescue:C_Small-Device1-stduinof429-rescue C3
 U 1 1 5DA23506
 P 3000 2300
 F 0 "C3" H 3010 2370 50  0000 L CNN
@@ -217,7 +216,7 @@ F 3 "" H 3000 2300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device1:CP1_Small C2
+L stduinof429-rescue:CP1_Small-Device1-stduinof429-rescue C2
 U 1 1 5DA23553
 P 2700 2300
 F 0 "C2" H 2710 2370 50  0000 L CNN
@@ -228,7 +227,7 @@ F 3 "" H 2700 2300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device1:CP1_Small C1
+L stduinof429-rescue:CP1_Small-Device1-stduinof429-rescue C1
 U 1 1 5DA2358A
 P 1775 2300
 F 0 "C1" H 1785 2370 50  0000 L CNN
@@ -239,7 +238,7 @@ F 3 "" H 1775 2300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:GND #PWR04
+L stduinof429-rescue:GND-power1-stduinof429-rescue #PWR04
 U 1 1 5DA238C8
 P 3000 2950
 F 0 "#PWR04" H 3000 2700 50  0001 C CNN
@@ -250,7 +249,7 @@ F 3 "" H 3000 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L stduinof429-rescue:TEST_1P W1
+L stduinof429-rescue:TEST_1P-stduinof429-rescue W1
 U 1 1 5DA2393F
 P 2875 2800
 F 0 "W1" H 2875 3070 50  0000 C CNN
@@ -261,7 +260,7 @@ F 3 "" H 3075 2800 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L stduinof429-rescue:LED D1
+L stduinof429-rescue:LED-stduinof429-rescue D1
 U 1 1 5DA239FC
 P 3300 2725
 F 0 "D1" H 3250 2850 50  0000 L CNN
@@ -272,7 +271,7 @@ F 3 "" V 3300 2725 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power1:GND #PWR05
+L stduinof429-rescue:GND-power1-stduinof429-rescue #PWR05
 U 1 1 5DA23A43
 P 3300 2950
 F 0 "#PWR05" H 3300 2700 50  0001 C CNN
@@ -283,7 +282,7 @@ F 3 "" H 3300 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device1:R_Small R1
+L stduinof429-rescue:R_Small-Device1-stduinof429-rescue R1
 U 1 1 5DA23AF5
 P 3300 2300
 F 0 "R1" H 3350 2350 50  0000 L CNN
@@ -298,7 +297,7 @@ VCC_3V3
 Text GLabel 3625 1525 2    60   Input ~ 0
 VCC_3V3
 $Comp
-L power1:PWR_FLAG #FLG06
+L stduinof429-rescue:PWR_FLAG-power1-stduinof429-rescue #FLG06
 U 1 1 5DA24062
 P 3475 1500
 F 0 "#FLG06" H 3475 1575 50  0001 C CNN
@@ -311,7 +310,7 @@ $EndComp
 Text GLabel 1775 1800 1    60   Output ~ 0
 VCC5V
 $Comp
-L power1:GND #PWR07
+L stduinof429-rescue:GND-power1-stduinof429-rescue #PWR07
 U 1 1 5DA242C3
 P 3150 1550
 F 0 "#PWR07" H 3150 1300 50  0001 C CNN
@@ -322,7 +321,7 @@ F 3 "" H 3150 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:PWR_FLAG #FLG08
+L stduinof429-rescue:PWR_FLAG-power1-stduinof429-rescue #FLG08
 U 1 1 5DA242F5
 P 2975 1500
 F 0 "#FLG08" H 2975 1575 50  0001 C CNN
@@ -614,7 +613,7 @@ MAPPING COMPATIBILITY PINS
 Text GLabel 6300 1750 1    60   Input ~ 0
 VCC_3V3
 $Comp
-L Device1:R_Small R2
+L stduinof429-rescue:R_Small-Device1-stduinof429-rescue R2
 U 1 1 5DA28353
 P 6300 1975
 F 0 "R2" H 6350 2025 50  0000 L CNN
@@ -631,7 +630,7 @@ Reset
 Wire Wire Line
 	6300 1750 6300 1875
 $Comp
-L power1:GND #PWR09
+L stduinof429-rescue:GND-power1-stduinof429-rescue #PWR09
 U 1 1 5DA28681
 P 6300 2850
 F 0 "#PWR09" H 6300 2600 50  0001 C CNN
@@ -642,7 +641,7 @@ F 3 "" H 6300 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L stduinof429-rescue:SW_PUSH SW1
+L stduinof429-rescue:SW_PUSH-stduinof429-rescue SW1
 U 1 1 5DA286C5
 P 6025 2550
 F 0 "SW1" H 6175 2660 50  0000 C CNN
@@ -656,7 +655,7 @@ Connection ~ 6300 2250
 Wire Wire Line
 	6025 2850 6300 2850
 $Comp
-L Device1:C_Small C4
+L stduinof429-rescue:C_Small-Device1-stduinof429-rescue C4
 U 1 1 5DA2889B
 P 6300 2550
 F 0 "C4" H 6310 2620 50  0000 L CNN
@@ -687,7 +686,7 @@ F0 "pageMCU" 60
 F1 "mcu_memory.sch" 60
 $EndSheet
 $Comp
-L stduinof429-rescue:CONN_1 P9
+L stduinof429-rescue:CONN_1-stduinof429-rescue P9
 U 1 1 5DA49690
 P 11175 650
 F 0 "P9" H 11255 650 40  0000 L CNN
@@ -710,7 +709,7 @@ D11
 Text GLabel 3200 5450 0    60   BiDi ~ 0
 D12
 $Comp
-L power1:+5V #PWR010
+L stduinof429-rescue:+5V-power1-stduinof429-rescue #PWR010
 U 1 1 5DA371CC
 P 1375 1475
 F 0 "#PWR010" H 1375 1325 50  0001 C CNN
@@ -721,7 +720,7 @@ F 3 "" H 1375 1475 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power1:PWR_FLAG #FLG011
+L stduinof429-rescue:PWR_FLAG-power1-stduinof429-rescue #FLG011
 U 1 1 5DA37249
 P 1275 1400
 F 0 "#FLG011" H 1275 1475 50  0001 C CNN
@@ -736,7 +735,7 @@ Wire Wire Line
 Wire Wire Line
 	1275 1475 1375 1475
 $Comp
-L power1:+3.3V #PWR012
+L stduinof429-rescue:+3.3V-power1-stduinof429-rescue #PWR012
 U 1 1 5DA38573
 P 3500 1900
 F 0 "#PWR012" H 3500 1860 30  0001 C CNN
@@ -752,7 +751,7 @@ Connection ~ 3500 2025
 Text GLabel 9050 1350 1    39   Output ~ 0
 VCC5V
 $Comp
-L stduinof429-rescue:CONN_01X03 P11
+L stduinof429-rescue:CONN_01X03-stduinof429-rescue P11
 U 1 1 5DA3B776
 P 1225 2025
 F 0 "P11" H 1225 2225 50  0000 C CNN
@@ -763,7 +762,7 @@ F 3 "" H 1225 2025 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power1:+5V #PWR013
+L stduinof429-rescue:+5V-power1-stduinof429-rescue #PWR013
 U 1 1 5DA3B7E5
 P 1425 1925
 F 0 "#PWR013" H 1425 1775 50  0001 C CNN
@@ -778,7 +777,7 @@ VCC_5V_USB
 Wire Wire Line
 	1425 2125 1425 2350
 $Comp
-L stduinof429-rescue:USB_OTG P12
+L stduinof429-rescue:USB_OTG-stduinof429-rescue P12
 U 1 1 5DA3BD90
 P 9875 4575
 F 0 "P12" H 10200 4450 50  0000 C CNN
@@ -792,7 +791,7 @@ NoConn ~ 9775 4875
 NoConn ~ 9875 4875
 NoConn ~ 9975 4875
 $Comp
-L power1:GND #PWR014
+L stduinof429-rescue:GND-power1-stduinof429-rescue #PWR014
 U 1 1 5DA3BEC3
 P 10075 5025
 F 0 "#PWR014" H 10075 5025 30  0001 C CNN
@@ -813,7 +812,7 @@ VCC_5V_USB
 Wire Wire Line
 	9675 4875 9675 5000
 $Comp
-L Device1:C_Small C27
+L stduinof429-rescue:C_Small-Device1-stduinof429-rescue C27
 U 1 1 5DA3C280
 P 9900 5000
 F 0 "C27" H 9910 5070 50  0000 L CNN
@@ -840,7 +839,7 @@ Wire Notes Line
 Text Notes 8725 4300 0    59   ~ 12
 USB POWER PLUG
 $Comp
-L power1:PWR_FLAG #FLG015
+L stduinof429-rescue:PWR_FLAG-power1-stduinof429-rescue #FLG015
 U 1 1 5DA3D4AB
 P 9425 5000
 F 0 "#FLG015" H 9425 5075 50  0001 C CNN

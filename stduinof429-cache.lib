@@ -1,11 +1,345 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector_Generic1_Conn_02x03_Odd_Even
+# stduinof429-rescue_+3.3V-power1-stduinof429-rescue
 #
-DEF Connector_Generic1_Conn_02x03_Odd_Even J 0 40 Y N 1 F N
+DEF stduinof429-rescue_+3.3V-power1-stduinof429-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "stduinof429-rescue_+3.3V-power1-stduinof429-rescue" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# stduinof429-rescue_+5V-power1-stduinof429-rescue
+#
+DEF stduinof429-rescue_+5V-power1-stduinof429-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "stduinof429-rescue_+5V-power1-stduinof429-rescue" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# stduinof429-rescue_AZ1117-3.3-Regulator_Linear1-stduinof429-rescue
+#
+DEF stduinof429-rescue_AZ1117-3.3-Regulator_Linear1-stduinof429-rescue U 0 10 Y Y 1 F N
+F0 "U" -150 125 50 H V C CNN
+F1 "stduinof429-rescue_AZ1117-3.3-Regulator_Linear1-stduinof429-rescue" 0 125 50 H V L CNN
+F2 "" 0 250 50 H I C CIN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SOT?223*
+ SOT?89*
+ TO?220*
+ TO?252*
+ TO?263*
+$ENDFPLIST
+DRAW
+S -200 75 200 -200 0 1 10 f
+X GND 1 0 -300 100 U 50 50 1 1 W
+X VO 2 300 0 100 L 50 50 1 1 w
+X VI 3 -300 0 100 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# stduinof429-rescue_CONN_01X02-stduinof429-rescue
+#
+DEF stduinof429-rescue_CONN_01X02-stduinof429-rescue P 0 40 Y N 1 F N
+F0 "P" 0 150 50 H V C CNN
+F1 "stduinof429-rescue_CONN_01X02-stduinof429-rescue" 100 0 50 V V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ Pin_Header_Straight_1X02
+ Pin_Header_Angled_1X02
+ Socket_Strip_Straight_1X02
+ Socket_Strip_Angled_1X02
+$ENDFPLIST
+DRAW
+S -50 -45 10 -55 0 1 0 N
+S -50 55 10 45 0 1 0 N
+S -50 100 50 -100 0 1 0 N
+X P1 1 -200 50 150 R 50 50 1 1 P
+X P2 2 -200 -50 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# stduinof429-rescue_CONN_01X03-stduinof429-rescue
+#
+DEF stduinof429-rescue_CONN_01X03-stduinof429-rescue P 0 40 Y N 1 F N
+F0 "P" 0 200 50 H V C CNN
+F1 "stduinof429-rescue_CONN_01X03-stduinof429-rescue" 100 0 50 V V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ Pin_Header_Straight_1X03
+ Pin_Header_Angled_1X03
+ Socket_Strip_Straight_1X03
+ Socket_Strip_Angled_1X03
+$ENDFPLIST
+DRAW
+S -50 -95 10 -105 0 1 0 N
+S -50 5 10 -5 0 1 0 N
+S -50 105 10 95 0 1 0 N
+S -50 150 50 -150 0 1 0 N
+X P1 1 -200 100 150 R 50 50 1 1 P
+X P2 2 -200 0 150 R 50 50 1 1 P
+X P3 3 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# stduinof429-rescue_CONN_01X04-stduinof429-rescue
+#
+DEF stduinof429-rescue_CONN_01X04-stduinof429-rescue P 0 40 Y N 1 F N
+F0 "P" 0 250 50 H V C CNN
+F1 "stduinof429-rescue_CONN_01X04-stduinof429-rescue" 100 0 50 V V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ Pin_Header_Straight_1X04
+ Pin_Header_Angled_1X04
+ Socket_Strip_Straight_1X04
+ Socket_Strip_Angled_1X04
+$ENDFPLIST
+DRAW
+S -50 -145 10 -155 0 1 0 N
+S -50 -45 10 -55 0 1 0 N
+S -50 55 10 45 0 1 0 N
+S -50 155 10 145 0 1 0 N
+S -50 200 50 -200 0 1 0 N
+X P1 1 -200 150 150 R 50 50 1 1 P
+X P2 2 -200 50 150 R 50 50 1 1 P
+X P3 3 -200 -50 150 R 50 50 1 1 P
+X P4 4 -200 -150 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# stduinof429-rescue_CONN_02X20-stduinof429-rescue
+#
+DEF stduinof429-rescue_CONN_02X20-stduinof429-rescue P 0 1 Y N 1 F N
+F0 "P" 0 1050 50 H V C CNN
+F1 "stduinof429-rescue_CONN_02X20-stduinof429-rescue" 0 0 50 V V C CNN
+F2 "" 0 -950 50 H V C CNN
+F3 "" 0 -950 50 H V C CNN
+$FPLIST
+ Pin_Header_Straight_2X20
+ Pin_Header_Angled_2X20
+ Socket_Strip_Straight_2X20
+ Socket_Strip_Angled_2X20
+$ENDFPLIST
+DRAW
+S -100 -945 -50 -955 0 1 0 N
+S -100 -845 -50 -855 0 1 0 N
+S -100 -745 -50 -755 0 1 0 N
+S -100 -645 -50 -655 0 1 0 N
+S -100 -545 -50 -555 0 1 0 N
+S -100 -445 -50 -455 0 1 0 N
+S -100 -345 -50 -355 0 1 0 N
+S -100 -245 -50 -255 0 1 0 N
+S -100 -145 -50 -155 0 1 0 N
+S -100 -45 -50 -55 0 1 0 N
+S -100 55 -50 45 0 1 0 N
+S -100 155 -50 145 0 1 0 N
+S -100 255 -50 245 0 1 0 N
+S -100 355 -50 345 0 1 0 N
+S -100 455 -50 445 0 1 0 N
+S -100 555 -50 545 0 1 0 N
+S -100 655 -50 645 0 1 0 N
+S -100 755 -50 745 0 1 0 N
+S -100 855 -50 845 0 1 0 N
+S -100 955 -50 945 0 1 0 N
+S -100 1000 100 -1000 0 1 0 N
+S 50 -945 100 -955 0 1 0 N
+S 50 -845 100 -855 0 1 0 N
+S 50 -745 100 -755 0 1 0 N
+S 50 -645 100 -655 0 1 0 N
+S 50 -545 100 -555 0 1 0 N
+S 50 -445 100 -455 0 1 0 N
+S 50 -345 100 -355 0 1 0 N
+S 50 -245 100 -255 0 1 0 N
+S 50 -145 100 -155 0 1 0 N
+S 50 -45 100 -55 0 1 0 N
+S 50 55 100 45 0 1 0 N
+S 50 155 100 145 0 1 0 N
+S 50 255 100 245 0 1 0 N
+S 50 355 100 345 0 1 0 N
+S 50 455 100 445 0 1 0 N
+S 50 555 100 545 0 1 0 N
+S 50 655 100 645 0 1 0 N
+S 50 755 100 745 0 1 0 N
+S 50 855 100 845 0 1 0 N
+S 50 955 100 945 0 1 0 N
+X P1 1 -250 950 150 R 50 50 1 1 P
+X P10 10 250 550 150 L 50 50 1 1 P
+X P11 11 -250 450 150 R 50 50 1 1 P
+X P12 12 250 450 150 L 50 50 1 1 P
+X P13 13 -250 350 150 R 50 50 1 1 P
+X P14 14 250 350 150 L 50 50 1 1 P
+X P15 15 -250 250 150 R 50 50 1 1 P
+X P16 16 250 250 150 L 50 50 1 1 P
+X P17 17 -250 150 150 R 50 50 1 1 P
+X P18 18 250 150 150 L 50 50 1 1 P
+X P19 19 -250 50 150 R 50 50 1 1 P
+X P2 2 250 950 150 L 50 50 1 1 P
+X P20 20 250 50 150 L 50 50 1 1 P
+X P21 21 -250 -50 150 R 50 50 1 1 P
+X P22 22 250 -50 150 L 50 50 1 1 P
+X P23 23 -250 -150 150 R 50 50 1 1 P
+X P24 24 250 -150 150 L 50 50 1 1 P
+X P25 25 -250 -250 150 R 50 50 1 1 P
+X P26 26 250 -250 150 L 50 50 1 1 P
+X P27 27 -250 -350 150 R 50 50 1 1 P
+X P28 28 250 -350 150 L 50 50 1 1 P
+X P29 29 -250 -450 150 R 50 50 1 1 P
+X P3 3 -250 850 150 R 50 50 1 1 P
+X P30 30 250 -450 150 L 50 50 1 1 P
+X P31 31 -250 -550 150 R 50 50 1 1 P
+X P32 32 250 -550 150 L 50 50 1 1 P
+X P33 33 -250 -650 150 R 50 50 1 1 P
+X P34 34 250 -650 150 L 50 50 1 1 P
+X P35 35 -250 -750 150 R 50 50 1 1 P
+X P36 36 250 -750 150 L 50 50 1 1 P
+X P37 37 -250 -850 150 R 50 50 1 1 P
+X P38 38 250 -850 150 L 50 50 1 1 P
+X P39 39 -250 -950 150 R 50 50 1 1 P
+X P4 4 250 850 150 L 50 50 1 1 P
+X P40 40 250 -950 150 L 50 50 1 1 P
+X P5 5 -250 750 150 R 50 50 1 1 P
+X P6 6 250 750 150 L 50 50 1 1 P
+X P7 7 -250 650 150 R 50 50 1 1 P
+X P8 8 250 650 150 L 50 50 1 1 P
+X P9 9 -250 550 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# stduinof429-rescue_CONN_1-stduinof429-rescue
+#
+DEF stduinof429-rescue_CONN_1-stduinof429-rescue P 0 30 N N 1 F N
+F0 "P" 80 0 40 H V L CNN
+F1 "stduinof429-rescue_CONN_1-stduinof429-rescue" 0 55 30 H I C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+C 0 0 31 0 1 0 N
+P 2 0 1 0 -30 0 -50 0 N
+X 1 1 -150 0 100 R 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
+# stduinof429-rescue_CONN_10-stduinof429-rescue
+#
+DEF stduinof429-rescue_CONN_10-stduinof429-rescue P 0 40 Y N 1 F N
+F0 "P" -50 0 60 V V C CNN
+F1 "stduinof429-rescue_CONN_10-stduinof429-rescue" 50 0 60 V V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S -100 500 100 -500 0 1 0 N
+X P1 1 -350 450 250 R 50 50 1 1 P I
+X P10 10 -350 -450 250 R 50 50 1 1 P I
+X P2 2 -350 350 250 R 50 50 1 1 P I
+X P3 3 -350 250 250 R 50 50 1 1 P I
+X P4 4 -350 150 250 R 50 50 1 1 P I
+X P5 5 -350 50 250 R 50 50 1 1 P I
+X P6 6 -350 -50 250 R 50 50 1 1 P I
+X P7 7 -350 -150 250 R 50 50 1 1 P I
+X P8 8 -350 -250 250 R 50 50 1 1 P I
+X P9 9 -350 -350 250 R 50 50 1 1 P I
+ENDDRAW
+ENDDEF
+#
+# stduinof429-rescue_CONN_6-stduinof429-rescue
+#
+DEF stduinof429-rescue_CONN_6-stduinof429-rescue P 0 30 Y N 1 F N
+F0 "P" -50 0 60 V V C CNN
+F1 "stduinof429-rescue_CONN_6-stduinof429-rescue" 50 0 60 V V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S -100 300 100 -300 0 1 0 N
+X 1 1 -350 250 250 R 60 60 1 1 P I
+X 2 2 -350 150 250 R 60 60 1 1 P I
+X 3 3 -350 50 250 R 60 60 1 1 P I
+X 4 4 -350 -50 250 R 60 60 1 1 P I
+X 5 5 -350 -150 250 R 60 60 1 1 P I
+X 6 6 -350 -250 250 R 60 60 1 1 P I
+ENDDRAW
+ENDDEF
+#
+# stduinof429-rescue_CONN_8-stduinof429-rescue
+#
+DEF stduinof429-rescue_CONN_8-stduinof429-rescue P 0 40 Y N 1 F N
+F0 "P" -50 0 60 V V C CNN
+F1 "stduinof429-rescue_CONN_8-stduinof429-rescue" 50 0 60 V V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S -100 400 100 -400 0 1 0 N
+X P1 1 -350 350 250 R 50 50 1 1 P I
+X P2 2 -350 250 250 R 50 50 1 1 P I
+X P3 3 -350 150 250 R 50 50 1 1 P I
+X P4 4 -350 50 250 R 50 50 1 1 P I
+X P5 5 -350 -50 250 R 50 50 1 1 P I
+X P6 6 -350 -150 250 R 50 50 1 1 P I
+X P7 7 -350 -250 250 R 50 50 1 1 P I
+X P8 8 -350 -350 250 R 50 50 1 1 P I
+ENDDRAW
+ENDDEF
+#
+# stduinof429-rescue_CP1_Small-Device1-stduinof429-rescue
+#
+DEF stduinof429-rescue_CP1_Small-Device1-stduinof429-rescue C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "stduinof429-rescue_CP1_Small-Device1-stduinof429-rescue" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ CP_*
+$ENDFPLIST
+DRAW
+A 0 -140 125 1186 614 0 1 12 N -60 -30 60 -30
+P 2 0 1 12 -60 20 60 20 N
+P 2 0 1 0 -50 60 -30 60 N
+P 2 0 1 0 -40 50 -40 70 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# stduinof429-rescue_C_Small-Device1-stduinof429-rescue
+#
+DEF stduinof429-rescue_C_Small-Device1-stduinof429-rescue C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "stduinof429-rescue_C_Small-Device1-stduinof429-rescue" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# stduinof429-rescue_Conn_02x03_Odd_Even-Connector_Generic1-stduinof429-rescue
+#
+DEF stduinof429-rescue_Conn_02x03_Odd_Even-Connector_Generic1-stduinof429-rescue J 0 40 Y N 1 F N
 F0 "J" 50 200 50 H V C CNN
-F1 "Connector_Generic1_Conn_02x03_Odd_Even" 50 -200 50 H V C CNN
+F1 "stduinof429-rescue_Conn_02x03_Odd_Even-Connector_Generic1-stduinof429-rescue" 50 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -28,49 +362,11 @@ X Pin_6 6 300 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device1_CP1_Small
+# stduinof429-rescue_Crystal_Small-Device1-stduinof429-rescue
 #
-DEF Device1_CP1_Small C 0 10 N N 1 F N
-F0 "C" 10 70 50 H V L CNN
-F1 "Device1_CP1_Small" 10 -80 50 H V L CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- CP_*
-$ENDFPLIST
-DRAW
-A 0 -140 125 1186 614 0 1 12 N -60 -30 60 -30
-P 2 0 1 12 -60 20 60 20 N
-P 2 0 1 0 -50 60 -30 60 N
-P 2 0 1 0 -40 50 -40 70 N
-X ~ 1 0 100 80 D 50 50 1 1 P
-X ~ 2 0 -100 80 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device1_C_Small
-#
-DEF Device1_C_Small C 0 10 N N 1 F N
-F0 "C" 10 70 50 H V L CNN
-F1 "Device1_C_Small" 10 -80 50 H V L CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- C_*
-$ENDFPLIST
-DRAW
-P 2 0 1 13 -60 -20 60 -20 N
-P 2 0 1 12 -60 20 60 20 N
-X ~ 1 0 100 80 D 50 50 1 1 P
-X ~ 2 0 -100 80 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device1_Crystal_Small
-#
-DEF Device1_Crystal_Small Y 0 40 N N 1 F N
+DEF stduinof429-rescue_Crystal_Small-Device1-stduinof429-rescue Y 0 40 N N 1 F N
 F0 "Y" 0 100 50 H V C CNN
-F1 "Device1_Crystal_Small" 0 -100 50 H V C CNN
+F1 "stduinof429-rescue_Crystal_Small-Device1-stduinof429-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -85,11 +381,84 @@ X 2 2 100 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device1_R_Small
+# stduinof429-rescue_GND-power1-stduinof429-rescue
 #
-DEF Device1_R_Small R 0 10 N N 1 F N
+DEF stduinof429-rescue_GND-power1-stduinof429-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "stduinof429-rescue_GND-power1-stduinof429-rescue" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# stduinof429-rescue_LED-stduinof429-rescue
+#
+DEF stduinof429-rescue_LED-stduinof429-rescue D 0 40 Y N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "stduinof429-rescue_LED-stduinof429-rescue" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -50 50 -50 -50 N
+P 3 0 1 0 -80 -25 -125 -65 -120 -40 N
+P 3 0 1 0 -65 -40 -110 -80 -105 -55 N
+P 3 0 1 0 50 50 -50 0 50 -50 F
+X K 1 -200 0 150 R 40 40 1 1 P
+X A 2 200 0 150 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# stduinof429-rescue_Led_Small-stduinof429-rescue
+#
+DEF stduinof429-rescue_Led_Small-stduinof429-rescue D 0 10 N N 1 F N
+F0 "D" -50 125 50 H V L CNN
+F1 "stduinof429-rescue_Led_Small-stduinof429-rescue" -175 -100 50 H V L CNN
+F2 "" 0 0 50 V V C CNN
+F3 "" 0 0 50 V V C CNN
+$FPLIST
+ CP*
+ SM*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -30 -40 -30 40 N
+P 4 0 1 0 30 -40 -30 0 30 40 30 -40 F
+P 5 0 1 0 0 30 -20 50 -10 50 -20 50 -20 40 N
+P 5 0 1 0 20 50 0 70 10 70 0 70 0 60 N
+X K 1 -100 0 70 R 40 40 1 1 P
+X A 2 100 0 70 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# stduinof429-rescue_PWR_FLAG-power1-stduinof429-rescue
+#
+DEF stduinof429-rescue_PWR_FLAG-power1-stduinof429-rescue #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H I C CNN
+F1 "stduinof429-rescue_PWR_FLAG-power1-stduinof429-rescue" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+X pwr 1 0 0 0 U 50 50 0 0 w
+ENDDRAW
+ENDDEF
+#
+# stduinof429-rescue_R_Small-Device1-stduinof429-rescue
+#
+DEF stduinof429-rescue_R_Small-Device1-stduinof429-rescue R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "Device1_R_Small" 30 -40 50 H V L CNN
+F1 "stduinof429-rescue_R_Small-Device1-stduinof429-rescue" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -102,14 +471,13 @@ X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MCU_ST_STM32F41_STM32F429IGTx
+# stduinof429-rescue_STM32F429IGTx-MCU_ST_STM32F41-stduinof429-rescue
 #
-DEF MCU_ST_STM32F41_STM32F429IGTx U 0 20 Y Y 1 F N
+DEF stduinof429-rescue_STM32F429IGTx-MCU_ST_STM32F41-stduinof429-rescue U 0 20 Y Y 1 F N
 F0 "U" -1300 4250 50 H V L CNN
-F1 "MCU_ST_STM32F41_STM32F429IGTx" 1000 4250 50 H V L CNN
+F1 "stduinof429-rescue_STM32F429IGTx-MCU_ST_STM32F41-stduinof429-rescue" 1000 4250 50 H V L CNN
 F2 "Package_QFP:LQFP-176_24x24mm_P0.5mm" -1300 -4300 50 H I R CNN
 F3 "" 0 0 50 H I C CNN
-ALIAS STM32F429IGTx
 $FPLIST
  LQFP*24x24mm*P0.5mm*
 $ENDFPLIST
@@ -294,382 +662,11 @@ X PD11 99 1400 -2100 200 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# Regulator_Linear1_AZ1117-3.3
+# stduinof429-rescue_SW_PUSH-stduinof429-rescue
 #
-DEF Regulator_Linear1_AZ1117-3.3 U 0 10 Y Y 1 F N
-F0 "U" -150 125 50 H V C CNN
-F1 "Regulator_Linear1_AZ1117-3.3" 0 125 50 H V L CNN
-F2 "" 0 250 50 H I C CIN
-F3 "" 0 0 50 H I C CNN
-ALIAS AZ1117-1.5 AZ1117-1.8 AZ1117-2.5 AZ1117-2.85 AZ1117-3.3 AZ1117-5.0
-$FPLIST
- SOT?223*
- SOT?89*
- TO?220*
- TO?252*
- TO?263*
-$ENDFPLIST
-DRAW
-S -200 75 200 -200 0 1 10 f
-X GND 1 0 -300 100 U 50 50 1 1 W
-X VO 2 300 0 100 L 50 50 1 1 w
-X VI 3 -300 0 100 R 50 50 1 1 W
-ENDDRAW
-ENDDEF
-#
-# power1_+3.3V
-#
-DEF power1_+3.3V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power1_+3.3V" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-ALIAS +3.3V
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +3V3 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power1_+5V
-#
-DEF power1_+5V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power1_+5V" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +5V 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power1_GND
-#
-DEF power1_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power1_GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power1_PWR_FLAG
-#
-DEF power1_PWR_FLAG #FLG 0 0 N N 1 F P
-F0 "#FLG" 0 75 50 H I C CNN
-F1 "power1_PWR_FLAG" 0 150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
-X pwr 1 0 0 0 U 50 50 0 0 w
-ENDDRAW
-ENDDEF
-#
-# stduinof429-rescue_CONN_01X02
-#
-DEF stduinof429-rescue_CONN_01X02 P 0 40 Y N 1 F N
-F0 "P" 0 150 50 H V C CNN
-F1 "stduinof429-rescue_CONN_01X02" 100 0 50 V V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
-$FPLIST
- Pin_Header_Straight_1X02
- Pin_Header_Angled_1X02
- Socket_Strip_Straight_1X02
- Socket_Strip_Angled_1X02
-$ENDFPLIST
-DRAW
-S -50 -45 10 -55 0 1 0 N
-S -50 55 10 45 0 1 0 N
-S -50 100 50 -100 0 1 0 N
-X P1 1 -200 50 150 R 50 50 1 1 P
-X P2 2 -200 -50 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# stduinof429-rescue_CONN_01X03
-#
-DEF stduinof429-rescue_CONN_01X03 P 0 40 Y N 1 F N
-F0 "P" 0 200 50 H V C CNN
-F1 "stduinof429-rescue_CONN_01X03" 100 0 50 V V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
-$FPLIST
- Pin_Header_Straight_1X03
- Pin_Header_Angled_1X03
- Socket_Strip_Straight_1X03
- Socket_Strip_Angled_1X03
-$ENDFPLIST
-DRAW
-S -50 -95 10 -105 0 1 0 N
-S -50 5 10 -5 0 1 0 N
-S -50 105 10 95 0 1 0 N
-S -50 150 50 -150 0 1 0 N
-X P1 1 -200 100 150 R 50 50 1 1 P
-X P2 2 -200 0 150 R 50 50 1 1 P
-X P3 3 -200 -100 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# stduinof429-rescue_CONN_01X04
-#
-DEF stduinof429-rescue_CONN_01X04 P 0 40 Y N 1 F N
-F0 "P" 0 250 50 H V C CNN
-F1 "stduinof429-rescue_CONN_01X04" 100 0 50 V V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
-$FPLIST
- Pin_Header_Straight_1X04
- Pin_Header_Angled_1X04
- Socket_Strip_Straight_1X04
- Socket_Strip_Angled_1X04
-$ENDFPLIST
-DRAW
-S -50 -145 10 -155 0 1 0 N
-S -50 -45 10 -55 0 1 0 N
-S -50 55 10 45 0 1 0 N
-S -50 155 10 145 0 1 0 N
-S -50 200 50 -200 0 1 0 N
-X P1 1 -200 150 150 R 50 50 1 1 P
-X P2 2 -200 50 150 R 50 50 1 1 P
-X P3 3 -200 -50 150 R 50 50 1 1 P
-X P4 4 -200 -150 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# stduinof429-rescue_CONN_02X20
-#
-DEF stduinof429-rescue_CONN_02X20 P 0 1 Y N 1 F N
-F0 "P" 0 1050 50 H V C CNN
-F1 "stduinof429-rescue_CONN_02X20" 0 0 50 V V C CNN
-F2 "" 0 -950 50 H V C CNN
-F3 "" 0 -950 50 H V C CNN
-$FPLIST
- Pin_Header_Straight_2X20
- Pin_Header_Angled_2X20
- Socket_Strip_Straight_2X20
- Socket_Strip_Angled_2X20
-$ENDFPLIST
-DRAW
-S -100 -945 -50 -955 0 1 0 N
-S -100 -845 -50 -855 0 1 0 N
-S -100 -745 -50 -755 0 1 0 N
-S -100 -645 -50 -655 0 1 0 N
-S -100 -545 -50 -555 0 1 0 N
-S -100 -445 -50 -455 0 1 0 N
-S -100 -345 -50 -355 0 1 0 N
-S -100 -245 -50 -255 0 1 0 N
-S -100 -145 -50 -155 0 1 0 N
-S -100 -45 -50 -55 0 1 0 N
-S -100 55 -50 45 0 1 0 N
-S -100 155 -50 145 0 1 0 N
-S -100 255 -50 245 0 1 0 N
-S -100 355 -50 345 0 1 0 N
-S -100 455 -50 445 0 1 0 N
-S -100 555 -50 545 0 1 0 N
-S -100 655 -50 645 0 1 0 N
-S -100 755 -50 745 0 1 0 N
-S -100 855 -50 845 0 1 0 N
-S -100 955 -50 945 0 1 0 N
-S -100 1000 100 -1000 0 1 0 N
-S 50 -945 100 -955 0 1 0 N
-S 50 -845 100 -855 0 1 0 N
-S 50 -745 100 -755 0 1 0 N
-S 50 -645 100 -655 0 1 0 N
-S 50 -545 100 -555 0 1 0 N
-S 50 -445 100 -455 0 1 0 N
-S 50 -345 100 -355 0 1 0 N
-S 50 -245 100 -255 0 1 0 N
-S 50 -145 100 -155 0 1 0 N
-S 50 -45 100 -55 0 1 0 N
-S 50 55 100 45 0 1 0 N
-S 50 155 100 145 0 1 0 N
-S 50 255 100 245 0 1 0 N
-S 50 355 100 345 0 1 0 N
-S 50 455 100 445 0 1 0 N
-S 50 555 100 545 0 1 0 N
-S 50 655 100 645 0 1 0 N
-S 50 755 100 745 0 1 0 N
-S 50 855 100 845 0 1 0 N
-S 50 955 100 945 0 1 0 N
-X P1 1 -250 950 150 R 50 50 1 1 P
-X P10 10 250 550 150 L 50 50 1 1 P
-X P11 11 -250 450 150 R 50 50 1 1 P
-X P12 12 250 450 150 L 50 50 1 1 P
-X P13 13 -250 350 150 R 50 50 1 1 P
-X P14 14 250 350 150 L 50 50 1 1 P
-X P15 15 -250 250 150 R 50 50 1 1 P
-X P16 16 250 250 150 L 50 50 1 1 P
-X P17 17 -250 150 150 R 50 50 1 1 P
-X P18 18 250 150 150 L 50 50 1 1 P
-X P19 19 -250 50 150 R 50 50 1 1 P
-X P2 2 250 950 150 L 50 50 1 1 P
-X P20 20 250 50 150 L 50 50 1 1 P
-X P21 21 -250 -50 150 R 50 50 1 1 P
-X P22 22 250 -50 150 L 50 50 1 1 P
-X P23 23 -250 -150 150 R 50 50 1 1 P
-X P24 24 250 -150 150 L 50 50 1 1 P
-X P25 25 -250 -250 150 R 50 50 1 1 P
-X P26 26 250 -250 150 L 50 50 1 1 P
-X P27 27 -250 -350 150 R 50 50 1 1 P
-X P28 28 250 -350 150 L 50 50 1 1 P
-X P29 29 -250 -450 150 R 50 50 1 1 P
-X P3 3 -250 850 150 R 50 50 1 1 P
-X P30 30 250 -450 150 L 50 50 1 1 P
-X P31 31 -250 -550 150 R 50 50 1 1 P
-X P32 32 250 -550 150 L 50 50 1 1 P
-X P33 33 -250 -650 150 R 50 50 1 1 P
-X P34 34 250 -650 150 L 50 50 1 1 P
-X P35 35 -250 -750 150 R 50 50 1 1 P
-X P36 36 250 -750 150 L 50 50 1 1 P
-X P37 37 -250 -850 150 R 50 50 1 1 P
-X P38 38 250 -850 150 L 50 50 1 1 P
-X P39 39 -250 -950 150 R 50 50 1 1 P
-X P4 4 250 850 150 L 50 50 1 1 P
-X P40 40 250 -950 150 L 50 50 1 1 P
-X P5 5 -250 750 150 R 50 50 1 1 P
-X P6 6 250 750 150 L 50 50 1 1 P
-X P7 7 -250 650 150 R 50 50 1 1 P
-X P8 8 250 650 150 L 50 50 1 1 P
-X P9 9 -250 550 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# stduinof429-rescue_CONN_1
-#
-DEF ~stduinof429-rescue_CONN_1 P 0 30 N N 1 F N
-F0 "P" 80 0 40 H V L CNN
-F1 "stduinof429-rescue_CONN_1" 0 55 30 H I C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-C 0 0 31 0 1 0 N
-P 2 0 1 0 -30 0 -50 0 N
-X 1 1 -150 0 100 R 60 60 1 1 P
-ENDDRAW
-ENDDEF
-#
-# stduinof429-rescue_CONN_10
-#
-DEF stduinof429-rescue_CONN_10 P 0 40 Y N 1 F N
-F0 "P" -50 0 60 V V C CNN
-F1 "stduinof429-rescue_CONN_10" 50 0 60 V V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-S -100 500 100 -500 0 1 0 N
-X P1 1 -350 450 250 R 50 50 1 1 P I
-X P10 10 -350 -450 250 R 50 50 1 1 P I
-X P2 2 -350 350 250 R 50 50 1 1 P I
-X P3 3 -350 250 250 R 50 50 1 1 P I
-X P4 4 -350 150 250 R 50 50 1 1 P I
-X P5 5 -350 50 250 R 50 50 1 1 P I
-X P6 6 -350 -50 250 R 50 50 1 1 P I
-X P7 7 -350 -150 250 R 50 50 1 1 P I
-X P8 8 -350 -250 250 R 50 50 1 1 P I
-X P9 9 -350 -350 250 R 50 50 1 1 P I
-ENDDRAW
-ENDDEF
-#
-# stduinof429-rescue_CONN_6
-#
-DEF stduinof429-rescue_CONN_6 P 0 30 Y N 1 F N
-F0 "P" -50 0 60 V V C CNN
-F1 "stduinof429-rescue_CONN_6" 50 0 60 V V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-S -100 300 100 -300 0 1 0 N
-X 1 1 -350 250 250 R 60 60 1 1 P I
-X 2 2 -350 150 250 R 60 60 1 1 P I
-X 3 3 -350 50 250 R 60 60 1 1 P I
-X 4 4 -350 -50 250 R 60 60 1 1 P I
-X 5 5 -350 -150 250 R 60 60 1 1 P I
-X 6 6 -350 -250 250 R 60 60 1 1 P I
-ENDDRAW
-ENDDEF
-#
-# stduinof429-rescue_CONN_8
-#
-DEF stduinof429-rescue_CONN_8 P 0 40 Y N 1 F N
-F0 "P" -50 0 60 V V C CNN
-F1 "stduinof429-rescue_CONN_8" 50 0 60 V V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-S -100 400 100 -400 0 1 0 N
-X P1 1 -350 350 250 R 50 50 1 1 P I
-X P2 2 -350 250 250 R 50 50 1 1 P I
-X P3 3 -350 150 250 R 50 50 1 1 P I
-X P4 4 -350 50 250 R 50 50 1 1 P I
-X P5 5 -350 -50 250 R 50 50 1 1 P I
-X P6 6 -350 -150 250 R 50 50 1 1 P I
-X P7 7 -350 -250 250 R 50 50 1 1 P I
-X P8 8 -350 -350 250 R 50 50 1 1 P I
-ENDDRAW
-ENDDEF
-#
-# stduinof429-rescue_LED
-#
-DEF stduinof429-rescue_LED D 0 40 Y N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "stduinof429-rescue_LED" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
-$FPLIST
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$ENDFPLIST
-DRAW
-P 2 0 1 0 -50 50 -50 -50 N
-P 3 0 1 0 -80 -25 -125 -65 -120 -40 N
-P 3 0 1 0 -65 -40 -110 -80 -105 -55 N
-P 3 0 1 0 50 50 -50 0 50 -50 F
-X K 1 -200 0 150 R 40 40 1 1 P
-X A 2 200 0 150 L 40 40 1 1 P
-ENDDRAW
-ENDDEF
-#
-# stduinof429-rescue_Led_Small
-#
-DEF stduinof429-rescue_Led_Small D 0 10 N N 1 F N
-F0 "D" -50 125 50 H V L CNN
-F1 "stduinof429-rescue_Led_Small" -175 -100 50 H V L CNN
-F2 "" 0 0 50 V V C CNN
-F3 "" 0 0 50 V V C CNN
-$FPLIST
- CP*
- SM*
-$ENDFPLIST
-DRAW
-P 2 0 1 0 -30 -40 -30 40 N
-P 4 0 1 0 30 -40 -30 0 30 40 30 -40 F
-P 5 0 1 0 0 30 -20 50 -10 50 -20 50 -20 40 N
-P 5 0 1 0 20 50 0 70 10 70 0 70 0 60 N
-X K 1 -100 0 70 R 40 40 1 1 P
-X A 2 100 0 70 L 40 40 1 1 P
-ENDDRAW
-ENDDEF
-#
-# stduinof429-rescue_SW_PUSH
-#
-DEF stduinof429-rescue_SW_PUSH SW 0 40 N N 1 F N
+DEF stduinof429-rescue_SW_PUSH-stduinof429-rescue SW 0 40 N N 1 F N
 F0 "SW" 150 110 50 H V C CNN
-F1 "stduinof429-rescue_SW_PUSH" 0 -80 50 H V C CNN
+F1 "stduinof429-rescue_SW_PUSH-stduinof429-rescue" 0 -80 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -680,11 +677,11 @@ X 2 2 300 0 200 L 50 50 0 1 P I
 ENDDRAW
 ENDDEF
 #
-# stduinof429-rescue_TEST_1P
+# stduinof429-rescue_TEST_1P-stduinof429-rescue
 #
-DEF stduinof429-rescue_TEST_1P W 0 30 N N 1 F N
+DEF stduinof429-rescue_TEST_1P-stduinof429-rescue W 0 30 N N 1 F N
 F0 "W" 0 270 50 H V C CNN
-F1 "stduinof429-rescue_TEST_1P" 0 200 50 H V C CNN
+F1 "stduinof429-rescue_TEST_1P-stduinof429-rescue" 0 200 50 H V C CNN
 F2 "" 200 0 50 H V C CNN
 F3 "" 200 0 50 H V C CNN
 DRAW
@@ -693,11 +690,11 @@ X 1 1 0 0 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# stduinof429-rescue_USB_OTG
+# stduinof429-rescue_USB_OTG-stduinof429-rescue
 #
-DEF stduinof429-rescue_USB_OTG P 0 40 Y Y 1 F N
+DEF stduinof429-rescue_USB_OTG-stduinof429-rescue P 0 40 Y Y 1 F N
 F0 "P" 325 -125 50 H V C CNN
-F1 "stduinof429-rescue_USB_OTG" 0 200 50 H V C CNN
+F1 "stduinof429-rescue_USB_OTG-stduinof429-rescue" 0 200 50 H V C CNN
 F2 "" -50 -100 50 V V C CNN
 F3 "" -50 -100 50 V V C CNN
 $FPLIST

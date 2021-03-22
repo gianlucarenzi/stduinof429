@@ -1,13 +1,12 @@
 EESchema Schematic File Version 4
-LIBS:stduinof429-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 2 2
 Title "STM32Duino429"
-Date "2019-04-06"
-Rev "1.0"
+Date "2021-03-22"
+Rev "1.1"
 Comp "RetroBit Lab"
 Comment1 "ARDUINO STM32F429 MPU Interface"
 Comment2 " "
@@ -19,7 +18,7 @@ nRST
 Text GLabel 6700 2750 0    39   Input ~ 0
 VCC_3V3
 $Comp
-L Device1:Crystal_Small XT1
+L stduinof429-rescue:Crystal_Small-Device1-stduinof429-rescue XT1
 U 1 1 5C421B52
 P 5100 5400
 F 0 "XT1" H 5100 5500 50  0000 C CNN
@@ -30,7 +29,7 @@ F 3 "" H 5100 5400 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device1:C_Small C5
+L stduinof429-rescue:C_Small-Device1-stduinof429-rescue C5
 U 1 1 5C421C91
 P 4700 5050
 F 0 "C5" H 4710 5120 50  0000 L CNN
@@ -41,7 +40,7 @@ F 3 "" H 4700 5050 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device1:C_Small C6
+L stduinof429-rescue:C_Small-Device1-stduinof429-rescue C6
 U 1 1 5CA87C42
 P 4700 5750
 F 0 "C6" H 4710 5820 50  0000 L CNN
@@ -52,7 +51,7 @@ F 3 "" H 4700 5750 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power1:GND #PWR016
+L stduinof429-rescue:GND-power1-stduinof429-rescue #PWR016
 U 1 1 5CA87C43
 P 4350 5400
 F 0 "#PWR016" H 4350 5150 50  0001 C CNN
@@ -63,7 +62,7 @@ F 3 "" H 4350 5400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device1:C_Small C12
+L stduinof429-rescue:C_Small-Device1-stduinof429-rescue C12
 U 1 1 5C421E29
 P 14800 1000
 F 0 "C12" H 14810 1070 50  0000 L CNN
@@ -74,7 +73,7 @@ F 3 "" H 14800 1000 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device1:C_Small C13
+L stduinof429-rescue:C_Small-Device1-stduinof429-rescue C13
 U 1 1 5C421EE5
 P 14800 1350
 F 0 "C13" H 14810 1420 50  0000 L CNN
@@ -85,7 +84,7 @@ F 3 "" H 14800 1350 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device1:C_Small C14
+L stduinof429-rescue:C_Small-Device1-stduinof429-rescue C14
 U 1 1 5C421F19
 P 14800 1700
 F 0 "C14" H 14810 1770 50  0000 L CNN
@@ -96,7 +95,7 @@ F 3 "" H 14800 1700 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device1:C_Small C15
+L stduinof429-rescue:C_Small-Device1-stduinof429-rescue C15
 U 1 1 5CA87C47
 P 14800 2050
 F 0 "C15" H 14810 2120 50  0000 L CNN
@@ -107,7 +106,7 @@ F 3 "" H 14800 2050 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device1:C_Small C16
+L stduinof429-rescue:C_Small-Device1-stduinof429-rescue C16
 U 1 1 5C421F82
 P 14800 2400
 F 0 "C16" H 14810 2470 50  0000 L CNN
@@ -118,7 +117,7 @@ F 3 "" H 14800 2400 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device1:C_Small C17
+L stduinof429-rescue:C_Small-Device1-stduinof429-rescue C17
 U 1 1 5C421FB7
 P 14800 2750
 F 0 "C17" H 14810 2820 50  0000 L CNN
@@ -129,7 +128,7 @@ F 3 "" H 14800 2750 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device1:C_Small C18
+L stduinof429-rescue:C_Small-Device1-stduinof429-rescue C18
 U 1 1 5C421FF7
 P 14800 3100
 F 0 "C18" H 14810 3170 50  0000 L CNN
@@ -140,7 +139,7 @@ F 3 "" H 14800 3100 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power1:GND #PWR017
+L stduinof429-rescue:GND-power1-stduinof429-rescue #PWR017
 U 1 1 5CA87C4B
 P 15050 2050
 F 0 "#PWR017" H 15050 1800 50  0001 C CNN
@@ -195,7 +194,7 @@ Text GLabel 7000 4450 0    39   BiDi ~ 0
 Text GLabel 7000 4550 0    39   BiDi ~ 0
 mR/~W
 $Comp
-L Device1:R_Small R14
+L stduinof429-rescue:R_Small-Device1-stduinof429-rescue R14
 U 1 1 5C422FC6
 P 12150 6950
 F 0 "R14" H 12180 6970 50  0000 L CNN
@@ -206,7 +205,7 @@ F 3 "" H 12150 6950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L stduinof429-rescue:Led_Small D2
+L stduinof429-rescue:Led_Small-stduinof429-rescue D2
 U 1 1 5C423143
 P 12150 6750
 F 0 "D2" H 12100 6875 50  0000 L CNN
@@ -217,7 +216,7 @@ F 3 "" V 12150 6750 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power1:GND #PWR018
+L stduinof429-rescue:GND-power1-stduinof429-rescue #PWR018
 U 1 1 5C42325A
 P 12150 6500
 F 0 "#PWR018" H 12150 6250 50  0001 C CNN
@@ -228,7 +227,7 @@ F 3 "" H 12150 6500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power1:GND #PWR019
+L stduinof429-rescue:GND-power1-stduinof429-rescue #PWR019
 U 1 1 5C4234AD
 P 8550 10950
 F 0 "#PWR019" H 8550 10700 50  0001 C CNN
@@ -249,7 +248,7 @@ SWDCLK
 Text GLabel 9900 3250 2    39   BiDi ~ 0
 SWDIO
 $Comp
-L Device1:R_Small R4
+L stduinof429-rescue:R_Small-Device1-stduinof429-rescue R4
 U 1 1 5C43FC39
 P 5450 5750
 F 0 "R4" H 5480 5770 50  0000 L CNN
@@ -260,7 +259,7 @@ F 3 "" H 5450 5750 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device1:R_Small R3
+L stduinof429-rescue:R_Small-Device1-stduinof429-rescue R3
 U 1 1 5CA87C51
 P 5450 5050
 F 0 "R3" H 5480 5070 50  0000 L CNN
@@ -287,7 +286,7 @@ mA14
 Text GLabel 9900 6850 2    39   BiDi ~ 0
 mA15
 $Comp
-L Device1:R_Small R8
+L stduinof429-rescue:R_Small-Device1-stduinof429-rescue R8
 U 1 1 5CA875A2
 P 10350 2600
 F 0 "R8" H 10380 2620 50  0000 L CNN
@@ -298,7 +297,7 @@ F 3 "" H 10350 2600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device1:R_Small R11
+L stduinof429-rescue:R_Small-Device1-stduinof429-rescue R11
 U 1 1 5CA87673
 P 10850 2700
 F 0 "R11" H 10880 2720 50  0000 L CNN
@@ -325,7 +324,7 @@ Text GLabel 7000 4350 0    39   BiDi ~ 0
 Text GLabel 9900 4150 2    39   BiDi ~ 0
 ~mEXSEL
 $Comp
-L Device1:R_Small R9
+L stduinof429-rescue:R_Small-Device1-stduinof429-rescue R9
 U 1 1 5CBFC52B
 P 10700 3650
 F 0 "R9" H 10730 3670 50  0000 L CNN
@@ -336,7 +335,7 @@ F 3 "" H 10700 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device1:R_Small R10
+L stduinof429-rescue:R_Small-Device1-stduinof429-rescue R10
 U 1 1 5CBFC584
 P 10700 4050
 F 0 "R10" H 10730 4070 50  0000 L CNN
@@ -347,7 +346,7 @@ F 3 "" H 10700 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L stduinof429-rescue:CONN_01X02 BOOT1_MEM1
+L stduinof429-rescue:CONN_01X02-stduinof429-rescue BOOT1_MEM1
 U 1 1 5CBFC5CC
 P 10900 4300
 AR Path="/5CBFC5CC" Ref="BOOT1_MEM1"  Part="1" 
@@ -360,7 +359,7 @@ F 3 "" H 10900 4300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:GND #PWR020
+L stduinof429-rescue:GND-power1-stduinof429-rescue #PWR020
 U 1 1 5CBFC64D
 P 10700 4450
 F 0 "#PWR020" H 10700 4200 50  0001 C CNN
@@ -373,7 +372,7 @@ $EndComp
 Text GLabel 10700 3500 1    39   Input ~ 0
 VCC_3V3
 $Comp
-L Device1:R_Small R5
+L stduinof429-rescue:R_Small-Device1-stduinof429-rescue R5
 U 1 1 5CBFD035
 P 5900 2100
 F 0 "R5" H 5930 2120 50  0000 L CNN
@@ -384,7 +383,7 @@ F 3 "" H 5900 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device1:R_Small R6
+L stduinof429-rescue:R_Small-Device1-stduinof429-rescue R6
 U 1 1 5CBFD03B
 P 5900 2500
 F 0 "R6" H 5930 2520 50  0000 L CNN
@@ -395,7 +394,7 @@ F 3 "" H 5900 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L stduinof429-rescue:CONN_01X02 BOOT0_MEM1
+L stduinof429-rescue:CONN_01X02-stduinof429-rescue BOOT0_MEM1
 U 1 1 5CBFD041
 P 6100 2750
 AR Path="/5CBFD041" Ref="BOOT0_MEM1"  Part="1" 
@@ -408,7 +407,7 @@ F 3 "" H 6100 2750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:GND #PWR021
+L stduinof429-rescue:GND-power1-stduinof429-rescue #PWR021
 U 1 1 5CBFD047
 P 5900 2900
 F 0 "#PWR021" H 5900 2650 50  0001 C CNN
@@ -421,7 +420,7 @@ $EndComp
 Text GLabel 5900 1950 1    39   Input ~ 0
 VCC_3V3
 $Comp
-L Device1:C_Small C11
+L stduinof429-rescue:C_Small-Device1-stduinof429-rescue C11
 U 1 1 5CBFD329
 P 14800 800
 F 0 "C11" H 14810 870 50  0000 L CNN
@@ -432,7 +431,7 @@ F 3 "" H 14800 800 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device1:C_Small C9
+L stduinof429-rescue:C_Small-Device1-stduinof429-rescue C9
 U 1 1 5CBFD5FA
 P 6850 2950
 F 0 "C9" H 6860 3020 50  0000 L CNN
@@ -443,7 +442,7 @@ F 3 "" H 6850 2950 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power1:GND #PWR022
+L stduinof429-rescue:GND-power1-stduinof429-rescue #PWR022
 U 1 1 5CBFD69C
 P 6850 3050
 F 0 "#PWR022" H 6850 2800 50  0001 C CNN
@@ -462,7 +461,7 @@ VCAP_1_MEM
 Text GLabel 4850 2250 1    39   BiDi ~ 0
 VCAP_2_MEM
 $Comp
-L Device1:C_Small C7
+L stduinof429-rescue:C_Small-Device1-stduinof429-rescue C7
 U 1 1 5CBFDA42
 P 4850 2450
 F 0 "C7" H 4860 2520 50  0000 L CNN
@@ -473,7 +472,7 @@ F 3 "" H 4850 2450 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device1:C_Small C8
+L stduinof429-rescue:C_Small-Device1-stduinof429-rescue C8
 U 1 1 5CBFDACE
 P 5100 2450
 F 0 "C8" H 5110 2520 50  0000 L CNN
@@ -484,7 +483,7 @@ F 3 "" H 5100 2450 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power1:GND #PWR023
+L stduinof429-rescue:GND-power1-stduinof429-rescue #PWR023
 U 1 1 5CBFDC43
 P 4850 2650
 F 0 "#PWR023" H 4850 2400 50  0001 C CNN
@@ -495,7 +494,7 @@ F 3 "" H 4850 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device1:R_Small R7
+L stduinof429-rescue:R_Small-Device1-stduinof429-rescue R7
 U 1 1 5CBFE173
 P 9100 10650
 F 0 "R7" H 9130 10670 50  0000 L CNN
@@ -514,7 +513,7 @@ PB6
 Text GLabel 11450 5400 0    39   BiDi ~ 0
 PB9
 $Comp
-L Device1:R_Small R12
+L stduinof429-rescue:R_Small-Device1-stduinof429-rescue R12
 U 1 1 5CBFE6D9
 P 11600 5150
 F 0 "R12" H 11630 5170 50  0000 L CNN
@@ -527,7 +526,7 @@ $EndComp
 Text GLabel 11600 4900 1    39   Input ~ 0
 VCC_3V3
 $Comp
-L Device1:R_Small R13
+L stduinof429-rescue:R_Small-Device1-stduinof429-rescue R13
 U 1 1 5CBFE72E
 P 11850 5150
 F 0 "R13" H 11880 5170 50  0000 L CNN
@@ -548,7 +547,7 @@ Wire Wire Line
 Wire Wire Line
 	4600 5050 4350 5050
 Wire Wire Line
-	4350 5050 4350 5750
+	4350 5050 4350 5400
 Wire Wire Line
 	4350 5750 4600 5750
 Connection ~ 4350 5400
@@ -557,9 +556,7 @@ Connection ~ 5100 5750
 Wire Wire Line
 	14900 1000 15050 1000
 Wire Wire Line
-	15050 600  15050 3100
-Wire Wire Line
-	15050 3100 14900 3100
+	15050 600  15050 800 
 Wire Wire Line
 	14900 2750 15050 2750
 Connection ~ 15050 2750
@@ -576,23 +573,23 @@ Wire Wire Line
 	14900 1350 15050 1350
 Connection ~ 15050 1350
 Wire Wire Line
-	14400 1000 14700 1000
+	14400 1000 14500 1000
 Wire Wire Line
-	13800 3100 14700 3100
+	13800 3100 14500 3100
 Wire Wire Line
-	13900 2750 14700 2750
+	13900 2750 14500 2750
 Connection ~ 14500 2750
 Wire Wire Line
-	14000 2400 14700 2400
+	14000 2400 14500 2400
 Connection ~ 14500 2400
 Wire Wire Line
-	14100 2050 14700 2050
+	14100 2050 14500 2050
 Connection ~ 14500 2050
 Wire Wire Line
-	14200 1700 14700 1700
+	14200 1700 14500 1700
 Connection ~ 14500 1700
 Wire Wire Line
-	14300 1350 14700 1350
+	14300 1350 14500 1350
 Connection ~ 14500 1350
 Connection ~ 14500 3100
 Wire Wire Line
@@ -631,9 +628,9 @@ Wire Wire Line
 Wire Wire Line
 	12150 7200 11700 7200
 Wire Wire Line
-	4800 5750 5350 5750
+	4800 5750 5100 5750
 Wire Wire Line
-	4800 5050 5350 5050
+	4800 5050 5100 5050
 Wire Wire Line
 	5550 5050 6200 5050
 Wire Wire Line
@@ -653,21 +650,21 @@ Wire Wire Line
 Wire Wire Line
 	10850 2950 10850 2800
 Wire Wire Line
-	9900 2850 10450 2850
+	9900 2850 10350 2850
 Wire Wire Line
 	10350 2700 10350 2850
 Connection ~ 10350 2850
 Wire Wire Line
-	9900 2950 10950 2950
+	9900 2950 10850 2950
 Connection ~ 10850 2950
 Wire Wire Line
-	9900 3850 11050 3850
+	9900 3850 10700 3850
 Wire Wire Line
 	10700 4450 10700 4350
 Wire Wire Line
 	10700 4250 10700 4150
 Wire Wire Line
-	10700 3750 10700 3950
+	10700 3750 10700 3850
 Connection ~ 10700 3850
 Wire Wire Line
 	10700 3500 10700 3550
@@ -676,7 +673,7 @@ Wire Wire Line
 Wire Wire Line
 	5900 2700 5900 2600
 Wire Wire Line
-	5900 2200 5900 2400
+	5900 2200 5900 2350
 Wire Wire Line
 	5900 1950 5900 2000
 Wire Wire Line
@@ -691,12 +688,12 @@ Wire Wire Line
 	14900 800  15050 800 
 Connection ~ 15050 1000
 Wire Wire Line
-	6700 2750 7000 2750
+	6700 2750 6850 2750
 Wire Wire Line
 	6850 2850 6850 2750
 Connection ~ 6850 2750
 Wire Wire Line
-	4850 2550 4850 2650
+	4850 2550 4850 2600
 Wire Wire Line
 	4850 2600 5100 2600
 Wire Wire Line
@@ -707,7 +704,7 @@ Wire Wire Line
 Wire Wire Line
 	4850 2250 4850 2350
 Wire Wire Line
-	11600 4900 11600 5050
+	11600 4900 11600 5000
 Wire Wire Line
 	11850 5000 11850 5050
 Wire Wire Line
@@ -742,7 +739,7 @@ Wire Wire Line
 Wire Wire Line
 	8600 1100 8600 1650
 $Comp
-L Device1:C_Small C19
+L stduinof429-rescue:C_Small-Device1-stduinof429-rescue C19
 U 1 1 5D33E304
 P 14800 3600
 F 0 "C19" H 14810 3670 50  0000 L CNN
@@ -753,7 +750,7 @@ F 3 "" H 14800 3600 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device1:C_Small C20
+L stduinof429-rescue:C_Small-Device1-stduinof429-rescue C20
 U 1 1 5D33E30A
 P 14800 3950
 F 0 "C20" H 14810 4020 50  0000 L CNN
@@ -764,7 +761,7 @@ F 3 "" H 14800 3950 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device1:C_Small C21
+L stduinof429-rescue:C_Small-Device1-stduinof429-rescue C21
 U 1 1 5D33E310
 P 14800 4300
 F 0 "C21" H 14810 4370 50  0000 L CNN
@@ -775,7 +772,7 @@ F 3 "" H 14800 4300 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device1:C_Small C22
+L stduinof429-rescue:C_Small-Device1-stduinof429-rescue C22
 U 1 1 5D33E316
 P 14800 4650
 F 0 "C22" H 14810 4720 50  0000 L CNN
@@ -786,7 +783,7 @@ F 3 "" H 14800 4650 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device1:C_Small C23
+L stduinof429-rescue:C_Small-Device1-stduinof429-rescue C23
 U 1 1 5D33E31C
 P 14800 5000
 F 0 "C23" H 14810 5070 50  0000 L CNN
@@ -797,7 +794,7 @@ F 3 "" H 14800 5000 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device1:C_Small C24
+L stduinof429-rescue:C_Small-Device1-stduinof429-rescue C24
 U 1 1 5D33E322
 P 14800 5350
 F 0 "C24" H 14810 5420 50  0000 L CNN
@@ -808,7 +805,7 @@ F 3 "" H 14800 5350 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power1:GND #PWR024
+L stduinof429-rescue:GND-power1-stduinof429-rescue #PWR024
 U 1 1 5D33E328
 P 15250 4300
 F 0 "#PWR024" H 15250 4050 50  0001 C CNN
@@ -819,8 +816,6 @@ F 3 "" H 15250 4300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	15050 3050 15050 6050
-Wire Wire Line
 	15050 5350 14900 5350
 Wire Wire Line
 	14900 5000 15050 5000
@@ -829,7 +824,7 @@ Wire Wire Line
 	14900 4650 15050 4650
 Connection ~ 15050 4650
 Wire Wire Line
-	14900 4300 15250 4300
+	14900 4300 15050 4300
 Wire Wire Line
 	14900 3950 15050 3950
 Connection ~ 15050 3950
@@ -837,25 +832,25 @@ Wire Wire Line
 	14900 3600 15050 3600
 Connection ~ 15050 3600
 Wire Wire Line
-	13200 5350 14700 5350
+	13200 5350 14500 5350
 Wire Wire Line
-	13300 5000 14700 5000
+	13300 5000 14500 5000
 Connection ~ 14500 5000
 Wire Wire Line
-	13400 4650 14700 4650
+	13400 4650 14500 4650
 Connection ~ 14500 4650
 Wire Wire Line
-	13500 4300 14700 4300
+	13500 4300 14500 4300
 Connection ~ 14500 4300
 Wire Wire Line
-	13600 3950 14700 3950
+	13600 3950 14500 3950
 Connection ~ 14500 3950
 Wire Wire Line
-	13700 3600 14700 3600
+	13700 3600 14500 3600
 Connection ~ 14500 3600
 Connection ~ 14500 5350
 Wire Wire Line
-	14500 750  14500 6400
+	14500 750  14500 800 
 Wire Wire Line
 	8700 1150 8700 1650
 Wire Wire Line
@@ -889,7 +884,7 @@ Wire Wire Line
 Wire Wire Line
 	8000 10550 8000 10850
 Wire Wire Line
-	8000 10850 9100 10850
+	8000 10850 8100 10850
 Wire Wire Line
 	9100 10850 9100 10750
 Wire Wire Line
@@ -932,7 +927,7 @@ Wire Wire Line
 Wire Wire Line
 	13200 1400 13200 5350
 $Comp
-L Device1:C_Small C25
+L stduinof429-rescue:C_Small-Device1-stduinof429-rescue C25
 U 1 1 5D34252E
 P 14800 5700
 F 0 "C25" H 14810 5770 50  0000 L CNN
@@ -943,7 +938,7 @@ F 3 "" H 14800 5700 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device1:C_Small C26
+L stduinof429-rescue:C_Small-Device1-stduinof429-rescue C26
 U 1 1 5D342534
 P 14800 6050
 F 0 "C26" H 14810 6120 50  0000 L CNN
@@ -958,9 +953,9 @@ Wire Wire Line
 Wire Wire Line
 	14900 5700 15050 5700
 Wire Wire Line
-	13000 6050 14700 6050
+	13000 6050 14500 6050
 Wire Wire Line
-	13100 5700 14700 5700
+	13100 5700 14500 5700
 Connection ~ 14500 5700
 Connection ~ 14500 6050
 Wire Wire Line
@@ -977,7 +972,7 @@ Wire Wire Line
 	13000 1500 13000 6050
 Connection ~ 15050 5350
 $Comp
-L Device1:C_Small C10
+L stduinof429-rescue:C_Small-Device1-stduinof429-rescue C10
 U 1 1 5D342CF5
 P 14800 600
 F 0 "C10" H 14810 670 50  0000 L CNN
@@ -996,8 +991,6 @@ Wire Wire Line
 	7800 700  14500 700 
 Wire Wire Line
 	14500 700  14500 600 
-Wire Wire Line
-	14500 600  14700 600 
 NoConn ~ 7000 2150
 NoConn ~ 7000 2050
 NoConn ~ 9900 2750
@@ -1079,7 +1072,7 @@ Text GLabel 9900 2250 2    39   Output ~ 0
 SPI_SEL3
 NoConn ~ 9900 2350
 $Comp
-L MCU_ST_STM32F41:STM32F429IGTx U2
+L stduinof429-rescue:STM32F429IGTx-MCU_ST_STM32F41-stduinof429-rescue U2
 U 1 1 5DA242D2
 P 8500 6050
 F 0 "U2" H 7200 10300 50  0000 L CNN
@@ -1180,7 +1173,7 @@ Text GLabel 3800 9250 0    39   BiDi ~ 0
 NoConn ~ 7000 5050
 NoConn ~ 7000 4950
 $Comp
-L power1:GND #PWR025
+L stduinof429-rescue:GND-power1-stduinof429-rescue #PWR025
 U 1 1 5DA29D1C
 P 3225 8850
 F 0 "#PWR025" H 3225 8600 50  0001 C CNN
@@ -1199,7 +1192,7 @@ NoConn ~ 7000 4750
 NoConn ~ 7000 4850
 NoConn ~ 9900 4350
 $Comp
-L stduinof429-rescue:CONN_01X03 DEBUG1
+L stduinof429-rescue:CONN_01X03-stduinof429-rescue DEBUG1
 U 1 1 5DA2AA4A
 P 2700 3825
 F 0 "DEBUG1" V 2875 3825 50  0000 C CNN
@@ -1210,7 +1203,7 @@ F 3 "" H 2700 3825 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L stduinof429-rescue:CONN_01X04 SWDIO/CLK1
+L stduinof429-rescue:CONN_01X04-stduinof429-rescue SWDIO/CLK1
 U 1 1 5DA2AAD5
 P 1825 3850
 F 0 "SWDIO/CLK1" V 2025 3825 50  0000 C CNN
@@ -1221,7 +1214,7 @@ F 3 "" H 1825 3850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power1:GND #PWR026
+L stduinof429-rescue:GND-power1-stduinof429-rescue #PWR026
 U 1 1 5DA2AD8A
 P 1550 3600
 F 0 "#PWR026" H 1550 3350 50  0001 C CNN
@@ -1252,7 +1245,7 @@ UART_TX
 Text GLabel 3075 3825 2    39   BiDi ~ 0
 UART_RX
 $Comp
-L power1:GND #PWR027
+L stduinof429-rescue:GND-power1-stduinof429-rescue #PWR027
 U 1 1 5DA2C0EE
 P 2975 4000
 F 0 "#PWR027" H 2975 3750 50  0001 C CNN
@@ -1271,15 +1264,11 @@ Wire Wire Line
 Wire Wire Line
 	2975 3925 2975 4000
 Wire Notes Line
-	900  3275 900  4425
-Wire Notes Line
 	900  4425 4100 4425
 Wire Notes Line
 	4100 4425 4100 2750
 Wire Notes Line
 	4100 2750 900  2750
-Wire Notes Line
-	900  2750 900  3300
 Text Notes 975  2900 0    59   ~ 12
 DEBUG SECTION
 Wire Notes Line
@@ -1291,19 +1280,15 @@ Wire Notes Line
 Text Notes 1200 7625 0    59   ~ 12
 EXPANSION BUS CONNECTOR
 Wire Notes Line
-	13150 7425 13150 8425
-Wire Notes Line
 	13150 8425 15100 8425
 Wire Notes Line
 	15100 8425 15100 7325
 Wire Notes Line
 	15100 7325 13150 7325
-Wire Notes Line
-	13150 7325 13150 7500
 Text Notes 13225 7475 0    59   ~ 12
 I2C ARDUINO SHIELD
 $Comp
-L power1:+5V #PWR028
+L stduinof429-rescue:+5V-power1-stduinof429-rescue #PWR028
 U 1 1 5DA2CFC9
 P 3125 7950
 F 0 "#PWR028" H 3125 7800 50  0001 C CNN
@@ -1368,7 +1353,7 @@ PB11
 Wire Wire Line
 	3800 7950 3125 7950
 $Comp
-L stduinof429-rescue:CONN_02X20 P10
+L stduinof429-rescue:CONN_02X20-stduinof429-rescue P10
 U 1 1 5DA3A653
 P 4050 8900
 F 0 "P10" H 4050 9950 50  0000 C CNN
@@ -1381,9 +1366,11 @@ $EndComp
 Wire Notes Line
 	3300 9525 3300 10050
 $Comp
-L Connector_Generic1:Conn_02x03_Odd_Even J1
+L stduinof429-rescue:Conn_02x03_Odd_Even-Connector_Generic1-stduinof429-rescue J1
 U 1 1 5DA3C61C
 P 2025 8925
+AR Path="/5DA3C61C" Ref="J1"  Part="1" 
+AR Path="/5DA2930A/5DA3C61C" Ref="J1"  Part="1" 
 F 0 "J1" H 2075 9125 50  0000 C CNN
 F 1 "Conn_02x03_Odd_Even" H 2075 8725 50  0000 C CNN
 F 2 "RetroBitLab:IDC-Header_2x03_P2.54mm_Vertical" H 2025 8925 50  0001 C CNN
@@ -1410,7 +1397,7 @@ PORTB
 Wire Notes Line
 	3300 9525 3350 9525
 $Comp
-L power1:GND #PWR029
+L stduinof429-rescue:GND-power1-stduinof429-rescue #PWR029
 U 1 1 5DA4532F
 P 1300 9175
 F 0 "#PWR029" H 1300 8925 50  0001 C CNN
@@ -1423,7 +1410,7 @@ $EndComp
 Wire Wire Line
 	1300 8925 1300 9175
 $Comp
-L power1:GND #PWR030
+L stduinof429-rescue:GND-power1-stduinof429-rescue #PWR030
 U 1 1 5DA45612
 P 2800 9175
 F 0 "#PWR030" H 2800 8925 50  0001 C CNN
@@ -1480,4 +1467,151 @@ Text Notes 10475 9475 1    60   ~ 12
 PORTE 6 pins (SHIELD)
 Text Notes 10625 8000 1    59   ~ 12
 OPTIMIZED FOR BUS ACCESS
+Wire Wire Line
+	4350 5400 4350 5750
+Wire Wire Line
+	5100 5050 5350 5050
+Wire Wire Line
+	5100 5750 5350 5750
+Wire Wire Line
+	15050 2400 15050 2750
+Wire Wire Line
+	15050 2050 15050 2400
+Wire Wire Line
+	15050 1700 15050 2050
+Wire Wire Line
+	15050 1350 15050 1700
+Wire Wire Line
+	14500 2750 14700 2750
+Wire Wire Line
+	14500 2750 14500 3100
+Wire Wire Line
+	14500 2400 14700 2400
+Wire Wire Line
+	14500 2400 14500 2750
+Wire Wire Line
+	14500 2050 14700 2050
+Wire Wire Line
+	14500 2050 14500 2400
+Wire Wire Line
+	14500 1700 14700 1700
+Wire Wire Line
+	14500 1700 14500 2050
+Wire Wire Line
+	14500 1350 14700 1350
+Wire Wire Line
+	14500 1350 14500 1700
+Wire Wire Line
+	14500 3100 14700 3100
+Wire Wire Line
+	14500 3100 14500 3600
+Wire Wire Line
+	14500 1000 14700 1000
+Wire Wire Line
+	14500 1000 14500 1350
+Wire Wire Line
+	10350 2850 10450 2850
+Wire Wire Line
+	10850 2950 10950 2950
+Wire Wire Line
+	10700 3850 11050 3850
+Wire Wire Line
+	10700 3850 10700 3950
+Wire Wire Line
+	5900 2350 5900 2400
+Wire Wire Line
+	14500 800  14500 1000
+Wire Wire Line
+	15050 1000 15050 1350
+Wire Wire Line
+	6850 2750 7000 2750
+Wire Wire Line
+	4850 2600 4850 2650
+Wire Wire Line
+	11600 5000 11600 5050
+Wire Wire Line
+	15050 5000 15050 5350
+Wire Wire Line
+	15050 4650 15050 5000
+Wire Wire Line
+	15050 3950 15050 4300
+Wire Wire Line
+	15050 3600 15050 3950
+Wire Wire Line
+	14500 5000 14700 5000
+Wire Wire Line
+	14500 5000 14500 5350
+Wire Wire Line
+	14500 4650 14700 4650
+Wire Wire Line
+	14500 4650 14500 5000
+Wire Wire Line
+	14500 4300 14700 4300
+Wire Wire Line
+	14500 4300 14500 4650
+Wire Wire Line
+	14500 3950 14700 3950
+Wire Wire Line
+	14500 3950 14500 4300
+Wire Wire Line
+	14500 3600 14700 3600
+Wire Wire Line
+	14500 3600 14500 3950
+Wire Wire Line
+	14500 5350 14700 5350
+Wire Wire Line
+	14500 5350 14500 5700
+Wire Wire Line
+	9000 10850 9100 10850
+Wire Wire Line
+	8900 10850 9000 10850
+Wire Wire Line
+	8800 10850 8900 10850
+Wire Wire Line
+	8700 10850 8800 10850
+Wire Wire Line
+	8600 10850 8700 10850
+Wire Wire Line
+	8500 10850 8550 10850
+Wire Wire Line
+	8400 10850 8500 10850
+Wire Wire Line
+	8300 10850 8400 10850
+Wire Wire Line
+	8200 10850 8300 10850
+Wire Wire Line
+	8100 10850 8200 10850
+Wire Wire Line
+	8550 10850 8600 10850
+Wire Wire Line
+	14500 5700 14700 5700
+Wire Wire Line
+	14500 5700 14500 6050
+Wire Wire Line
+	14500 6050 14700 6050
+Wire Wire Line
+	14500 6050 14500 6400
+Wire Wire Line
+	15050 5350 15050 5700
+Wire Wire Line
+	15050 800  15050 1000
+Wire Wire Line
+	15050 4300 15250 4300
+Wire Wire Line
+	15050 4300 15050 4650
+Wire Wire Line
+	15050 5700 15050 6050
+Wire Wire Line
+	15050 2750 15050 3100
+Wire Notes Line
+	900  2750 900  4425
+Wire Notes Line
+	13150 7325 13150 8425
+Wire Wire Line
+	14900 3100 15050 3100
+Connection ~ 15050 3100
+Wire Wire Line
+	15050 3100 15050 3600
+Wire Wire Line
+	14500 600  14700 600 
 $EndSCHEMATC
