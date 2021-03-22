@@ -5,9 +5,9 @@
     {
       "Vendor":      "KiCad",
       "Application": "Pcbnew",
-      "Version":     "5.0.2+dfsg1-1"
+      "Version":     "5.1.9+dfsg1-1~bpo10+1"
     },
-    "CreationDate":  "2020-05-23T15:41:05+02:00"
+    "CreationDate":  "2021-03-22T18:02:22+01:00"
   },
   "GeneralSpecs":
   {
@@ -40,47 +40,47 @@
   "FilesAttributes":
   [
     {
-      "Path":  "stduinof429-F.Cu.gtl",
+      "Path":  "stduinof429-F_Cu.gtl",
       "FileFunction":  "Copper,L1,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "stduinof429-B.Cu.gbl",
+      "Path":  "stduinof429-B_Cu.gbl",
       "FileFunction":  "Copper,L2,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "stduinof429-F.Paste.gtp",
+      "Path":  "stduinof429-F_Paste.gtp",
       "FileFunction":  "SolderPaste,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "stduinof429-B.Paste.gbp",
+      "Path":  "stduinof429-B_Paste.gbp",
       "FileFunction":  "SolderPaste,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "stduinof429-F.SilkS.gto",
+      "Path":  "stduinof429-F_SilkS.gto",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "stduinof429-B.SilkS.gbo",
+      "Path":  "stduinof429-B_SilkS.gbo",
       "FileFunction":  "Legend,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "stduinof429-F.Mask.gts",
+      "Path":  "stduinof429-F_Mask.gts",
       "FileFunction":  "SolderMask,Top",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "stduinof429-B.Mask.gbs",
+      "Path":  "stduinof429-B_Mask.gbs",
       "FileFunction":  "SolderMask,Bot",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "stduinof429-Edge.Cuts.gm1",
+      "Path":  "stduinof429-Edge_Cuts.gm1",
       "FileFunction":  "Profile",
       "FilePolarity":  "Positive"
     }
