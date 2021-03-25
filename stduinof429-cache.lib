@@ -96,11 +96,11 @@ X Pin_9 9 -200 500 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# stduinof429-rescue_+3.3V-power1-stduinof429-rescue
+# stduinof429-rescue_+3.3V-power1-stduinof429-rescue-stduinof429-rescue
 #
-DEF stduinof429-rescue_+3.3V-power1-stduinof429-rescue #PWR 0 0 Y Y 1 F P
+DEF stduinof429-rescue_+3.3V-power1-stduinof429-rescue-stduinof429-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "stduinof429-rescue_+3.3V-power1-stduinof429-rescue" 0 140 50 H V C CNN
+F1 "stduinof429-rescue_+3.3V-power1-stduinof429-rescue-stduinof429-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -111,11 +111,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# stduinof429-rescue_+5V-power1-stduinof429-rescue
+# stduinof429-rescue_+5V-power1-stduinof429-rescue-stduinof429-rescue
 #
-DEF stduinof429-rescue_+5V-power1-stduinof429-rescue #PWR 0 0 Y Y 1 F P
+DEF stduinof429-rescue_+5V-power1-stduinof429-rescue-stduinof429-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "stduinof429-rescue_+5V-power1-stduinof429-rescue" 0 140 50 H V C CNN
+F1 "stduinof429-rescue_+5V-power1-stduinof429-rescue-stduinof429-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -126,11 +126,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# stduinof429-rescue_AZ1117-3.3-Regulator_Linear1-stduinof429-rescue
+# stduinof429-rescue_AZ1117-3.3-Regulator_Linear1-stduinof429-rescue-stduinof429-rescue
 #
-DEF stduinof429-rescue_AZ1117-3.3-Regulator_Linear1-stduinof429-rescue U 0 10 Y Y 1 F N
+DEF stduinof429-rescue_AZ1117-3.3-Regulator_Linear1-stduinof429-rescue-stduinof429-rescue U 0 10 Y Y 1 F N
 F0 "U" -150 125 50 H V C CNN
-F1 "stduinof429-rescue_AZ1117-3.3-Regulator_Linear1-stduinof429-rescue" 0 125 50 H V L CNN
+F1 "stduinof429-rescue_AZ1117-3.3-Regulator_Linear1-stduinof429-rescue-stduinof429-rescue" 0 125 50 H V L CNN
 F2 "" 0 250 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -148,11 +148,11 @@ X VI 3 -300 0 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# stduinof429-rescue_CONN_01X02-stduinof429-rescue
+# stduinof429-rescue_CONN_01X02-stduinof429-rescue-stduinof429-rescue
 #
-DEF stduinof429-rescue_CONN_01X02-stduinof429-rescue P 0 40 Y N 1 F N
+DEF stduinof429-rescue_CONN_01X02-stduinof429-rescue-stduinof429-rescue P 0 40 Y N 1 F N
 F0 "P" 0 150 50 H V C CNN
-F1 "stduinof429-rescue_CONN_01X02-stduinof429-rescue" 100 0 50 V V C CNN
+F1 "stduinof429-rescue_CONN_01X02-stduinof429-rescue-stduinof429-rescue" 100 0 50 V V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -170,11 +170,11 @@ X P2 2 -200 -50 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# stduinof429-rescue_CONN_01X03-stduinof429-rescue
+# stduinof429-rescue_CONN_01X03-stduinof429-rescue-stduinof429-rescue
 #
-DEF stduinof429-rescue_CONN_01X03-stduinof429-rescue P 0 40 Y N 1 F N
+DEF stduinof429-rescue_CONN_01X03-stduinof429-rescue-stduinof429-rescue P 0 40 Y N 1 F N
 F0 "P" 0 200 50 H V C CNN
-F1 "stduinof429-rescue_CONN_01X03-stduinof429-rescue" 100 0 50 V V C CNN
+F1 "stduinof429-rescue_CONN_01X03-stduinof429-rescue-stduinof429-rescue" 100 0 50 V V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -194,11 +194,11 @@ X P3 3 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# stduinof429-rescue_CONN_01X04-stduinof429-rescue
+# stduinof429-rescue_CONN_01X04-stduinof429-rescue-stduinof429-rescue
 #
-DEF stduinof429-rescue_CONN_01X04-stduinof429-rescue P 0 40 Y N 1 F N
+DEF stduinof429-rescue_CONN_01X04-stduinof429-rescue-stduinof429-rescue P 0 40 Y N 1 F N
 F0 "P" 0 250 50 H V C CNN
-F1 "stduinof429-rescue_CONN_01X04-stduinof429-rescue" 100 0 50 V V C CNN
+F1 "stduinof429-rescue_CONN_01X04-stduinof429-rescue-stduinof429-rescue" 100 0 50 V V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -220,11 +220,11 @@ X P4 4 -200 -150 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# stduinof429-rescue_CONN_1-stduinof429-rescue
+# stduinof429-rescue_CONN_1-stduinof429-rescue-stduinof429-rescue
 #
-DEF stduinof429-rescue_CONN_1-stduinof429-rescue P 0 30 N N 1 F N
+DEF stduinof429-rescue_CONN_1-stduinof429-rescue-stduinof429-rescue P 0 30 N N 1 F N
 F0 "P" 80 0 40 H V L CNN
-F1 "stduinof429-rescue_CONN_1-stduinof429-rescue" 0 55 30 H I C CNN
+F1 "stduinof429-rescue_CONN_1-stduinof429-rescue-stduinof429-rescue" 0 55 30 H I C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -234,11 +234,11 @@ X 1 1 -150 0 100 R 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
-# stduinof429-rescue_CONN_10-stduinof429-rescue
+# stduinof429-rescue_CONN_10-stduinof429-rescue-stduinof429-rescue
 #
-DEF stduinof429-rescue_CONN_10-stduinof429-rescue P 0 40 Y N 1 F N
+DEF stduinof429-rescue_CONN_10-stduinof429-rescue-stduinof429-rescue P 0 40 Y N 1 F N
 F0 "P" -50 0 60 V V C CNN
-F1 "stduinof429-rescue_CONN_10-stduinof429-rescue" 50 0 60 V V C CNN
+F1 "stduinof429-rescue_CONN_10-stduinof429-rescue-stduinof429-rescue" 50 0 60 V V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -256,11 +256,11 @@ X P9 9 -350 -350 250 R 50 50 1 1 P I
 ENDDRAW
 ENDDEF
 #
-# stduinof429-rescue_CONN_6-stduinof429-rescue
+# stduinof429-rescue_CONN_6-stduinof429-rescue-stduinof429-rescue
 #
-DEF stduinof429-rescue_CONN_6-stduinof429-rescue P 0 30 Y N 1 F N
+DEF stduinof429-rescue_CONN_6-stduinof429-rescue-stduinof429-rescue P 0 30 Y N 1 F N
 F0 "P" -50 0 60 V V C CNN
-F1 "stduinof429-rescue_CONN_6-stduinof429-rescue" 50 0 60 V V C CNN
+F1 "stduinof429-rescue_CONN_6-stduinof429-rescue-stduinof429-rescue" 50 0 60 V V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -274,11 +274,11 @@ X 6 6 -350 -250 250 R 60 60 1 1 P I
 ENDDRAW
 ENDDEF
 #
-# stduinof429-rescue_CONN_8-stduinof429-rescue
+# stduinof429-rescue_CONN_8-stduinof429-rescue-stduinof429-rescue
 #
-DEF stduinof429-rescue_CONN_8-stduinof429-rescue P 0 40 Y N 1 F N
+DEF stduinof429-rescue_CONN_8-stduinof429-rescue-stduinof429-rescue P 0 40 Y N 1 F N
 F0 "P" -50 0 60 V V C CNN
-F1 "stduinof429-rescue_CONN_8-stduinof429-rescue" 50 0 60 V V C CNN
+F1 "stduinof429-rescue_CONN_8-stduinof429-rescue-stduinof429-rescue" 50 0 60 V V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -294,11 +294,11 @@ X P8 8 -350 -350 250 R 50 50 1 1 P I
 ENDDRAW
 ENDDEF
 #
-# stduinof429-rescue_CP1_Small-Device1-stduinof429-rescue
+# stduinof429-rescue_CP1_Small-Device1-stduinof429-rescue-stduinof429-rescue
 #
-DEF stduinof429-rescue_CP1_Small-Device1-stduinof429-rescue C 0 10 N N 1 F N
+DEF stduinof429-rescue_CP1_Small-Device1-stduinof429-rescue-stduinof429-rescue C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "stduinof429-rescue_CP1_Small-Device1-stduinof429-rescue" 10 -80 50 H V L CNN
+F1 "stduinof429-rescue_CP1_Small-Device1-stduinof429-rescue-stduinof429-rescue" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -314,11 +314,11 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# stduinof429-rescue_C_Small-Device1-stduinof429-rescue
+# stduinof429-rescue_C_Small-Device1-stduinof429-rescue-stduinof429-rescue
 #
-DEF stduinof429-rescue_C_Small-Device1-stduinof429-rescue C 0 10 N N 1 F N
+DEF stduinof429-rescue_C_Small-Device1-stduinof429-rescue-stduinof429-rescue C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "stduinof429-rescue_C_Small-Device1-stduinof429-rescue" 10 -80 50 H V L CNN
+F1 "stduinof429-rescue_C_Small-Device1-stduinof429-rescue-stduinof429-rescue" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -332,11 +332,11 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# stduinof429-rescue_Conn_02x03_Odd_Even-Connector_Generic1-stduinof429-rescue
+# stduinof429-rescue_Conn_02x03_Odd_Even-Connector_Generic1-stduinof429-rescue-stduinof429-rescue
 #
-DEF stduinof429-rescue_Conn_02x03_Odd_Even-Connector_Generic1-stduinof429-rescue J 0 40 Y N 1 F N
+DEF stduinof429-rescue_Conn_02x03_Odd_Even-Connector_Generic1-stduinof429-rescue-stduinof429-rescue J 0 40 Y N 1 F N
 F0 "J" 50 200 50 H V C CNN
-F1 "stduinof429-rescue_Conn_02x03_Odd_Even-Connector_Generic1-stduinof429-rescue" 50 -200 50 H V C CNN
+F1 "stduinof429-rescue_Conn_02x03_Odd_Even-Connector_Generic1-stduinof429-rescue-stduinof429-rescue" 50 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -359,11 +359,11 @@ X Pin_6 6 300 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# stduinof429-rescue_Crystal_Small-Device1-stduinof429-rescue
+# stduinof429-rescue_Crystal_Small-Device1-stduinof429-rescue-stduinof429-rescue
 #
-DEF stduinof429-rescue_Crystal_Small-Device1-stduinof429-rescue Y 0 40 N N 1 F N
+DEF stduinof429-rescue_Crystal_Small-Device1-stduinof429-rescue-stduinof429-rescue Y 0 40 N N 1 F N
 F0 "Y" 0 100 50 H V C CNN
-F1 "stduinof429-rescue_Crystal_Small-Device1-stduinof429-rescue" 0 -100 50 H V C CNN
+F1 "stduinof429-rescue_Crystal_Small-Device1-stduinof429-rescue-stduinof429-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -378,11 +378,11 @@ X 2 2 100 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# stduinof429-rescue_GND-power1-stduinof429-rescue
+# stduinof429-rescue_GND-power1-stduinof429-rescue-stduinof429-rescue
 #
-DEF stduinof429-rescue_GND-power1-stduinof429-rescue #PWR 0 0 Y Y 1 F P
+DEF stduinof429-rescue_GND-power1-stduinof429-rescue-stduinof429-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "stduinof429-rescue_GND-power1-stduinof429-rescue" 0 -150 50 H V C CNN
+F1 "stduinof429-rescue_GND-power1-stduinof429-rescue-stduinof429-rescue" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -391,11 +391,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# stduinof429-rescue_LED-stduinof429-rescue
+# stduinof429-rescue_LED-stduinof429-rescue-stduinof429-rescue
 #
-DEF stduinof429-rescue_LED-stduinof429-rescue D 0 40 Y N 1 F N
+DEF stduinof429-rescue_LED-stduinof429-rescue-stduinof429-rescue D 0 40 Y N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "stduinof429-rescue_LED-stduinof429-rescue" 0 -100 50 H V C CNN
+F1 "stduinof429-rescue_LED-stduinof429-rescue-stduinof429-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -417,11 +417,11 @@ X A 2 200 0 150 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# stduinof429-rescue_Led_Small-stduinof429-rescue
+# stduinof429-rescue_Led_Small-stduinof429-rescue-stduinof429-rescue
 #
-DEF stduinof429-rescue_Led_Small-stduinof429-rescue D 0 10 N N 1 F N
+DEF stduinof429-rescue_Led_Small-stduinof429-rescue-stduinof429-rescue D 0 10 N N 1 F N
 F0 "D" -50 125 50 H V L CNN
-F1 "stduinof429-rescue_Led_Small-stduinof429-rescue" -175 -100 50 H V L CNN
+F1 "stduinof429-rescue_Led_Small-stduinof429-rescue-stduinof429-rescue" -175 -100 50 H V L CNN
 F2 "" 0 0 50 V V C CNN
 F3 "" 0 0 50 V V C CNN
 $FPLIST
@@ -438,11 +438,11 @@ X A 2 100 0 70 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# stduinof429-rescue_PWR_FLAG-power1-stduinof429-rescue
+# stduinof429-rescue_PWR_FLAG-power1-stduinof429-rescue-stduinof429-rescue
 #
-DEF stduinof429-rescue_PWR_FLAG-power1-stduinof429-rescue #FLG 0 0 N N 1 F P
+DEF stduinof429-rescue_PWR_FLAG-power1-stduinof429-rescue-stduinof429-rescue #FLG 0 0 N N 1 F P
 F0 "#FLG" 0 75 50 H I C CNN
-F1 "stduinof429-rescue_PWR_FLAG-power1-stduinof429-rescue" 0 150 50 H V C CNN
+F1 "stduinof429-rescue_PWR_FLAG-power1-stduinof429-rescue-stduinof429-rescue" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -451,11 +451,11 @@ X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #
-# stduinof429-rescue_R_Small-Device1-stduinof429-rescue
+# stduinof429-rescue_R_Small-Device1-stduinof429-rescue-stduinof429-rescue
 #
-DEF stduinof429-rescue_R_Small-Device1-stduinof429-rescue R 0 10 N N 1 F N
+DEF stduinof429-rescue_R_Small-Device1-stduinof429-rescue-stduinof429-rescue R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "stduinof429-rescue_R_Small-Device1-stduinof429-rescue" 30 -40 50 H V L CNN
+F1 "stduinof429-rescue_R_Small-Device1-stduinof429-rescue-stduinof429-rescue" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -468,11 +468,11 @@ X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# stduinof429-rescue_STM32F429IGTx-MCU_ST_STM32F41-stduinof429-rescue
+# stduinof429-rescue_STM32F429IGTx-MCU_ST_STM32F41-stduinof429-rescue-stduinof429-rescue
 #
-DEF stduinof429-rescue_STM32F429IGTx-MCU_ST_STM32F41-stduinof429-rescue U 0 20 Y Y 1 F N
+DEF stduinof429-rescue_STM32F429IGTx-MCU_ST_STM32F41-stduinof429-rescue-stduinof429-rescue U 0 20 Y Y 1 F N
 F0 "U" -1300 4250 50 H V L CNN
-F1 "stduinof429-rescue_STM32F429IGTx-MCU_ST_STM32F41-stduinof429-rescue" 1000 4250 50 H V L CNN
+F1 "stduinof429-rescue_STM32F429IGTx-MCU_ST_STM32F41-stduinof429-rescue-stduinof429-rescue" 1000 4250 50 H V L CNN
 F2 "Package_QFP:LQFP-176_24x24mm_P0.5mm" -1300 -4300 50 H I R CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -659,11 +659,11 @@ X PD11 99 1400 -2100 200 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# stduinof429-rescue_SW_PUSH-stduinof429-rescue
+# stduinof429-rescue_SW_PUSH-stduinof429-rescue-stduinof429-rescue
 #
-DEF stduinof429-rescue_SW_PUSH-stduinof429-rescue SW 0 40 N N 1 F N
+DEF stduinof429-rescue_SW_PUSH-stduinof429-rescue-stduinof429-rescue SW 0 40 N N 1 F N
 F0 "SW" 150 110 50 H V C CNN
-F1 "stduinof429-rescue_SW_PUSH-stduinof429-rescue" 0 -80 50 H V C CNN
+F1 "stduinof429-rescue_SW_PUSH-stduinof429-rescue-stduinof429-rescue" 0 -80 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -674,11 +674,11 @@ X 2 2 300 0 200 L 50 50 0 1 P I
 ENDDRAW
 ENDDEF
 #
-# stduinof429-rescue_TEST_1P-stduinof429-rescue
+# stduinof429-rescue_TEST_1P-stduinof429-rescue-stduinof429-rescue
 #
-DEF stduinof429-rescue_TEST_1P-stduinof429-rescue W 0 30 N N 1 F N
+DEF stduinof429-rescue_TEST_1P-stduinof429-rescue-stduinof429-rescue W 0 30 N N 1 F N
 F0 "W" 0 270 50 H V C CNN
-F1 "stduinof429-rescue_TEST_1P-stduinof429-rescue" 0 200 50 H V C CNN
+F1 "stduinof429-rescue_TEST_1P-stduinof429-rescue-stduinof429-rescue" 0 200 50 H V C CNN
 F2 "" 200 0 50 H V C CNN
 F3 "" 200 0 50 H V C CNN
 DRAW
@@ -687,11 +687,11 @@ X 1 1 0 0 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# stduinof429-rescue_USB_OTG-stduinof429-rescue
+# stduinof429-rescue_USB_OTG-stduinof429-rescue-stduinof429-rescue
 #
-DEF stduinof429-rescue_USB_OTG-stduinof429-rescue P 0 40 Y Y 1 F N
+DEF stduinof429-rescue_USB_OTG-stduinof429-rescue-stduinof429-rescue P 0 40 Y Y 1 F N
 F0 "P" 325 -125 50 H V C CNN
-F1 "stduinof429-rescue_USB_OTG-stduinof429-rescue" 0 200 50 H V C CNN
+F1 "stduinof429-rescue_USB_OTG-stduinof429-rescue-stduinof429-rescue" 0 200 50 H V C CNN
 F2 "" -50 -100 50 V V C CNN
 F3 "" -50 -100 50 V V C CNN
 $FPLIST

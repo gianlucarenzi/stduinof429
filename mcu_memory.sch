@@ -18,7 +18,7 @@ nRST
 Text GLabel 6700 2750 0    39   Input ~ 0
 VCC_3V3
 $Comp
-L stduinof429-rescue:Crystal_Small-Device1-stduinof429-rescue XT1
+L stduinof429-rescue:Crystal_Small-Device1-stduinof429-rescue-stduinof429-rescue XT1
 U 1 1 5C421B52
 P 5100 5400
 F 0 "XT1" H 5100 5500 50  0000 C CNN
@@ -29,7 +29,7 @@ F 3 "" H 5100 5400 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L stduinof429-rescue:C_Small-Device1-stduinof429-rescue C5
+L stduinof429-rescue:C_Small-Device1-stduinof429-rescue-stduinof429-rescue C5
 U 1 1 5C421C91
 P 4700 5050
 F 0 "C5" H 4710 5120 50  0000 L CNN
@@ -40,7 +40,7 @@ F 3 "" H 4700 5050 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L stduinof429-rescue:C_Small-Device1-stduinof429-rescue C6
+L stduinof429-rescue:C_Small-Device1-stduinof429-rescue-stduinof429-rescue C6
 U 1 1 5CA87C42
 P 4700 5750
 F 0 "C6" H 4710 5820 50  0000 L CNN
@@ -51,7 +51,7 @@ F 3 "" H 4700 5750 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L stduinof429-rescue:GND-power1-stduinof429-rescue #PWR016
+L stduinof429-rescue:GND-power1-stduinof429-rescue-stduinof429-rescue #PWR016
 U 1 1 5CA87C43
 P 4350 5400
 F 0 "#PWR016" H 4350 5150 50  0001 C CNN
@@ -62,7 +62,7 @@ F 3 "" H 4350 5400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L stduinof429-rescue:C_Small-Device1-stduinof429-rescue C12
+L stduinof429-rescue:C_Small-Device1-stduinof429-rescue-stduinof429-rescue C12
 U 1 1 5C421E29
 P 14800 1000
 F 0 "C12" H 14810 1070 50  0000 L CNN
@@ -73,7 +73,7 @@ F 3 "" H 14800 1000 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L stduinof429-rescue:C_Small-Device1-stduinof429-rescue C13
+L stduinof429-rescue:C_Small-Device1-stduinof429-rescue-stduinof429-rescue C13
 U 1 1 5C421EE5
 P 14800 1350
 F 0 "C13" H 14810 1420 50  0000 L CNN
@@ -84,7 +84,7 @@ F 3 "" H 14800 1350 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L stduinof429-rescue:C_Small-Device1-stduinof429-rescue C14
+L stduinof429-rescue:C_Small-Device1-stduinof429-rescue-stduinof429-rescue C14
 U 1 1 5C421F19
 P 14800 1700
 F 0 "C14" H 14810 1770 50  0000 L CNN
@@ -95,7 +95,7 @@ F 3 "" H 14800 1700 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L stduinof429-rescue:C_Small-Device1-stduinof429-rescue C15
+L stduinof429-rescue:C_Small-Device1-stduinof429-rescue-stduinof429-rescue C15
 U 1 1 5CA87C47
 P 14800 2050
 F 0 "C15" H 14810 2120 50  0000 L CNN
@@ -106,7 +106,7 @@ F 3 "" H 14800 2050 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L stduinof429-rescue:C_Small-Device1-stduinof429-rescue C16
+L stduinof429-rescue:C_Small-Device1-stduinof429-rescue-stduinof429-rescue C16
 U 1 1 5C421F82
 P 14800 2400
 F 0 "C16" H 14810 2470 50  0000 L CNN
@@ -117,7 +117,7 @@ F 3 "" H 14800 2400 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L stduinof429-rescue:C_Small-Device1-stduinof429-rescue C17
+L stduinof429-rescue:C_Small-Device1-stduinof429-rescue-stduinof429-rescue C17
 U 1 1 5C421FB7
 P 14800 2750
 F 0 "C17" H 14810 2820 50  0000 L CNN
@@ -128,7 +128,7 @@ F 3 "" H 14800 2750 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L stduinof429-rescue:C_Small-Device1-stduinof429-rescue C18
+L stduinof429-rescue:C_Small-Device1-stduinof429-rescue-stduinof429-rescue C18
 U 1 1 5C421FF7
 P 14800 3100
 F 0 "C18" H 14810 3170 50  0000 L CNN
@@ -139,7 +139,7 @@ F 3 "" H 14800 3100 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L stduinof429-rescue:GND-power1-stduinof429-rescue #PWR017
+L stduinof429-rescue:GND-power1-stduinof429-rescue-stduinof429-rescue #PWR017
 U 1 1 5CA87C4B
 P 15050 2050
 F 0 "#PWR017" H 15050 1800 50  0001 C CNN
@@ -194,7 +194,7 @@ Text GLabel 7000 4450 0    39   BiDi ~ 0
 Text GLabel 7000 4550 0    39   BiDi ~ 0
 mR/~W
 $Comp
-L stduinof429-rescue:R_Small-Device1-stduinof429-rescue R14
+L stduinof429-rescue:R_Small-Device1-stduinof429-rescue-stduinof429-rescue R14
 U 1 1 5C422FC6
 P 12150 6950
 F 0 "R14" H 12180 6970 50  0000 L CNN
@@ -205,7 +205,7 @@ F 3 "" H 12150 6950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L stduinof429-rescue:Led_Small-stduinof429-rescue D2
+L stduinof429-rescue:Led_Small-stduinof429-rescue-stduinof429-rescue D2
 U 1 1 5C423143
 P 12150 6750
 F 0 "D2" H 12100 6875 50  0000 L CNN
@@ -216,7 +216,7 @@ F 3 "" V 12150 6750 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L stduinof429-rescue:GND-power1-stduinof429-rescue #PWR018
+L stduinof429-rescue:GND-power1-stduinof429-rescue-stduinof429-rescue #PWR018
 U 1 1 5C42325A
 P 12150 6500
 F 0 "#PWR018" H 12150 6250 50  0001 C CNN
@@ -227,7 +227,7 @@ F 3 "" H 12150 6500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L stduinof429-rescue:GND-power1-stduinof429-rescue #PWR019
+L stduinof429-rescue:GND-power1-stduinof429-rescue-stduinof429-rescue #PWR019
 U 1 1 5C4234AD
 P 8550 10950
 F 0 "#PWR019" H 8550 10700 50  0001 C CNN
@@ -248,7 +248,7 @@ SWDCLK
 Text GLabel 9900 3250 2    39   BiDi ~ 0
 SWDIO
 $Comp
-L stduinof429-rescue:R_Small-Device1-stduinof429-rescue R4
+L stduinof429-rescue:R_Small-Device1-stduinof429-rescue-stduinof429-rescue R4
 U 1 1 5C43FC39
 P 5450 5750
 F 0 "R4" H 5480 5770 50  0000 L CNN
@@ -259,7 +259,7 @@ F 3 "" H 5450 5750 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L stduinof429-rescue:R_Small-Device1-stduinof429-rescue R3
+L stduinof429-rescue:R_Small-Device1-stduinof429-rescue-stduinof429-rescue R3
 U 1 1 5CA87C51
 P 5450 5050
 F 0 "R3" H 5480 5070 50  0000 L CNN
@@ -286,7 +286,7 @@ mA14
 Text GLabel 9900 6850 2    39   BiDi ~ 0
 mA15
 $Comp
-L stduinof429-rescue:R_Small-Device1-stduinof429-rescue R8
+L stduinof429-rescue:R_Small-Device1-stduinof429-rescue-stduinof429-rescue R8
 U 1 1 5CA875A2
 P 10350 2600
 F 0 "R8" H 10380 2620 50  0000 L CNN
@@ -297,7 +297,7 @@ F 3 "" H 10350 2600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L stduinof429-rescue:R_Small-Device1-stduinof429-rescue R11
+L stduinof429-rescue:R_Small-Device1-stduinof429-rescue-stduinof429-rescue R11
 U 1 1 5CA87673
 P 10850 2700
 F 0 "R11" H 10880 2720 50  0000 L CNN
@@ -324,7 +324,7 @@ Text GLabel 7000 4350 0    39   BiDi ~ 0
 Text GLabel 9900 4150 2    39   BiDi ~ 0
 ~mEXSEL
 $Comp
-L stduinof429-rescue:R_Small-Device1-stduinof429-rescue R9
+L stduinof429-rescue:R_Small-Device1-stduinof429-rescue-stduinof429-rescue R9
 U 1 1 5CBFC52B
 P 10700 3650
 F 0 "R9" H 10730 3670 50  0000 L CNN
@@ -335,7 +335,7 @@ F 3 "" H 10700 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L stduinof429-rescue:R_Small-Device1-stduinof429-rescue R10
+L stduinof429-rescue:R_Small-Device1-stduinof429-rescue-stduinof429-rescue R10
 U 1 1 5CBFC584
 P 10700 4050
 F 0 "R10" H 10730 4070 50  0000 L CNN
@@ -346,7 +346,7 @@ F 3 "" H 10700 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L stduinof429-rescue:CONN_01X02-stduinof429-rescue BOOT1_MEM1
+L stduinof429-rescue:CONN_01X02-stduinof429-rescue-stduinof429-rescue BOOT1_MEM1
 U 1 1 5CBFC5CC
 P 10900 4300
 AR Path="/5CBFC5CC" Ref="BOOT1_MEM1"  Part="1" 
@@ -359,7 +359,7 @@ F 3 "" H 10900 4300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L stduinof429-rescue:GND-power1-stduinof429-rescue #PWR020
+L stduinof429-rescue:GND-power1-stduinof429-rescue-stduinof429-rescue #PWR020
 U 1 1 5CBFC64D
 P 10700 4450
 F 0 "#PWR020" H 10700 4200 50  0001 C CNN
@@ -372,7 +372,7 @@ $EndComp
 Text GLabel 10700 3500 1    39   Input ~ 0
 VCC_3V3
 $Comp
-L stduinof429-rescue:R_Small-Device1-stduinof429-rescue R5
+L stduinof429-rescue:R_Small-Device1-stduinof429-rescue-stduinof429-rescue R5
 U 1 1 5CBFD035
 P 5900 2100
 F 0 "R5" H 5930 2120 50  0000 L CNN
@@ -383,7 +383,7 @@ F 3 "" H 5900 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L stduinof429-rescue:R_Small-Device1-stduinof429-rescue R6
+L stduinof429-rescue:R_Small-Device1-stduinof429-rescue-stduinof429-rescue R6
 U 1 1 5CBFD03B
 P 5900 2500
 F 0 "R6" H 5930 2520 50  0000 L CNN
@@ -394,7 +394,7 @@ F 3 "" H 5900 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L stduinof429-rescue:CONN_01X02-stduinof429-rescue BOOT0_MEM1
+L stduinof429-rescue:CONN_01X02-stduinof429-rescue-stduinof429-rescue BOOT0_MEM1
 U 1 1 5CBFD041
 P 6100 2750
 AR Path="/5CBFD041" Ref="BOOT0_MEM1"  Part="1" 
@@ -407,7 +407,7 @@ F 3 "" H 6100 2750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L stduinof429-rescue:GND-power1-stduinof429-rescue #PWR021
+L stduinof429-rescue:GND-power1-stduinof429-rescue-stduinof429-rescue #PWR021
 U 1 1 5CBFD047
 P 5900 2900
 F 0 "#PWR021" H 5900 2650 50  0001 C CNN
@@ -420,7 +420,7 @@ $EndComp
 Text GLabel 5900 1950 1    39   Input ~ 0
 VCC_3V3
 $Comp
-L stduinof429-rescue:C_Small-Device1-stduinof429-rescue C11
+L stduinof429-rescue:C_Small-Device1-stduinof429-rescue-stduinof429-rescue C11
 U 1 1 5CBFD329
 P 14800 800
 F 0 "C11" H 14810 870 50  0000 L CNN
@@ -431,7 +431,7 @@ F 3 "" H 14800 800 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L stduinof429-rescue:C_Small-Device1-stduinof429-rescue C9
+L stduinof429-rescue:C_Small-Device1-stduinof429-rescue-stduinof429-rescue C9
 U 1 1 5CBFD5FA
 P 6850 2950
 F 0 "C9" H 6860 3020 50  0000 L CNN
@@ -442,7 +442,7 @@ F 3 "" H 6850 2950 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L stduinof429-rescue:GND-power1-stduinof429-rescue #PWR022
+L stduinof429-rescue:GND-power1-stduinof429-rescue-stduinof429-rescue #PWR022
 U 1 1 5CBFD69C
 P 6850 3050
 F 0 "#PWR022" H 6850 2800 50  0001 C CNN
@@ -461,7 +461,7 @@ VCAP_1_MEM
 Text GLabel 4850 2250 1    39   BiDi ~ 0
 VCAP_2_MEM
 $Comp
-L stduinof429-rescue:C_Small-Device1-stduinof429-rescue C7
+L stduinof429-rescue:C_Small-Device1-stduinof429-rescue-stduinof429-rescue C7
 U 1 1 5CBFDA42
 P 4850 2450
 F 0 "C7" H 4860 2520 50  0000 L CNN
@@ -472,7 +472,7 @@ F 3 "" H 4850 2450 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L stduinof429-rescue:C_Small-Device1-stduinof429-rescue C8
+L stduinof429-rescue:C_Small-Device1-stduinof429-rescue-stduinof429-rescue C8
 U 1 1 5CBFDACE
 P 5100 2450
 F 0 "C8" H 5110 2520 50  0000 L CNN
@@ -483,7 +483,7 @@ F 3 "" H 5100 2450 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L stduinof429-rescue:GND-power1-stduinof429-rescue #PWR023
+L stduinof429-rescue:GND-power1-stduinof429-rescue-stduinof429-rescue #PWR023
 U 1 1 5CBFDC43
 P 4850 2650
 F 0 "#PWR023" H 4850 2400 50  0001 C CNN
@@ -494,7 +494,7 @@ F 3 "" H 4850 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L stduinof429-rescue:R_Small-Device1-stduinof429-rescue R7
+L stduinof429-rescue:R_Small-Device1-stduinof429-rescue-stduinof429-rescue R7
 U 1 1 5CBFE173
 P 9100 10650
 F 0 "R7" H 9130 10670 50  0000 L CNN
@@ -513,7 +513,7 @@ PB6
 Text GLabel 11450 5400 0    39   BiDi ~ 0
 PB9
 $Comp
-L stduinof429-rescue:R_Small-Device1-stduinof429-rescue R12
+L stduinof429-rescue:R_Small-Device1-stduinof429-rescue-stduinof429-rescue R12
 U 1 1 5CBFE6D9
 P 11600 5150
 F 0 "R12" H 11630 5170 50  0000 L CNN
@@ -526,7 +526,7 @@ $EndComp
 Text GLabel 11600 4900 1    39   Input ~ 0
 VCC_3V3
 $Comp
-L stduinof429-rescue:R_Small-Device1-stduinof429-rescue R13
+L stduinof429-rescue:R_Small-Device1-stduinof429-rescue-stduinof429-rescue R13
 U 1 1 5CBFE72E
 P 11850 5150
 F 0 "R13" H 11880 5170 50  0000 L CNN
@@ -739,7 +739,7 @@ Wire Wire Line
 Wire Wire Line
 	8600 1100 8600 1650
 $Comp
-L stduinof429-rescue:C_Small-Device1-stduinof429-rescue C19
+L stduinof429-rescue:C_Small-Device1-stduinof429-rescue-stduinof429-rescue C19
 U 1 1 5D33E304
 P 14800 3600
 F 0 "C19" H 14810 3670 50  0000 L CNN
@@ -750,7 +750,7 @@ F 3 "" H 14800 3600 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L stduinof429-rescue:C_Small-Device1-stduinof429-rescue C20
+L stduinof429-rescue:C_Small-Device1-stduinof429-rescue-stduinof429-rescue C20
 U 1 1 5D33E30A
 P 14800 3950
 F 0 "C20" H 14810 4020 50  0000 L CNN
@@ -761,7 +761,7 @@ F 3 "" H 14800 3950 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L stduinof429-rescue:C_Small-Device1-stduinof429-rescue C21
+L stduinof429-rescue:C_Small-Device1-stduinof429-rescue-stduinof429-rescue C21
 U 1 1 5D33E310
 P 14800 4300
 F 0 "C21" H 14810 4370 50  0000 L CNN
@@ -772,7 +772,7 @@ F 3 "" H 14800 4300 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L stduinof429-rescue:C_Small-Device1-stduinof429-rescue C22
+L stduinof429-rescue:C_Small-Device1-stduinof429-rescue-stduinof429-rescue C22
 U 1 1 5D33E316
 P 14800 4650
 F 0 "C22" H 14810 4720 50  0000 L CNN
@@ -783,7 +783,7 @@ F 3 "" H 14800 4650 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L stduinof429-rescue:C_Small-Device1-stduinof429-rescue C23
+L stduinof429-rescue:C_Small-Device1-stduinof429-rescue-stduinof429-rescue C23
 U 1 1 5D33E31C
 P 14800 5000
 F 0 "C23" H 14810 5070 50  0000 L CNN
@@ -794,7 +794,7 @@ F 3 "" H 14800 5000 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L stduinof429-rescue:C_Small-Device1-stduinof429-rescue C24
+L stduinof429-rescue:C_Small-Device1-stduinof429-rescue-stduinof429-rescue C24
 U 1 1 5D33E322
 P 14800 5350
 F 0 "C24" H 14810 5420 50  0000 L CNN
@@ -805,7 +805,7 @@ F 3 "" H 14800 5350 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L stduinof429-rescue:GND-power1-stduinof429-rescue #PWR024
+L stduinof429-rescue:GND-power1-stduinof429-rescue-stduinof429-rescue #PWR024
 U 1 1 5D33E328
 P 15250 4300
 F 0 "#PWR024" H 15250 4050 50  0001 C CNN
@@ -927,7 +927,7 @@ Wire Wire Line
 Wire Wire Line
 	13200 1400 13200 5350
 $Comp
-L stduinof429-rescue:C_Small-Device1-stduinof429-rescue C25
+L stduinof429-rescue:C_Small-Device1-stduinof429-rescue-stduinof429-rescue C25
 U 1 1 5D34252E
 P 14800 5700
 F 0 "C25" H 14810 5770 50  0000 L CNN
@@ -938,7 +938,7 @@ F 3 "" H 14800 5700 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L stduinof429-rescue:C_Small-Device1-stduinof429-rescue C26
+L stduinof429-rescue:C_Small-Device1-stduinof429-rescue-stduinof429-rescue C26
 U 1 1 5D342534
 P 14800 6050
 F 0 "C26" H 14810 6120 50  0000 L CNN
@@ -972,7 +972,7 @@ Wire Wire Line
 	13000 1500 13000 6050
 Connection ~ 15050 5350
 $Comp
-L stduinof429-rescue:C_Small-Device1-stduinof429-rescue C10
+L stduinof429-rescue:C_Small-Device1-stduinof429-rescue-stduinof429-rescue C10
 U 1 1 5D342CF5
 P 14800 600
 F 0 "C10" H 14810 670 50  0000 L CNN
@@ -1072,7 +1072,7 @@ Text GLabel 9900 2250 2    39   Output ~ 0
 SPI_SEL3
 NoConn ~ 9900 2350
 $Comp
-L stduinof429-rescue:STM32F429IGTx-MCU_ST_STM32F41-stduinof429-rescue U2
+L stduinof429-rescue:STM32F429IGTx-MCU_ST_STM32F41-stduinof429-rescue-stduinof429-rescue U2
 U 1 1 5DA242D2
 P 8500 6050
 F 0 "U2" H 7200 10300 50  0000 L CNN
@@ -1173,7 +1173,7 @@ Text GLabel 3800 9250 0    39   BiDi ~ 0
 NoConn ~ 7000 5050
 NoConn ~ 7000 4950
 $Comp
-L stduinof429-rescue:GND-power1-stduinof429-rescue #PWR025
+L stduinof429-rescue:GND-power1-stduinof429-rescue-stduinof429-rescue #PWR025
 U 1 1 5DA29D1C
 P 3225 8850
 F 0 "#PWR025" H 3225 8600 50  0001 C CNN
@@ -1192,7 +1192,7 @@ NoConn ~ 7000 4750
 NoConn ~ 7000 4850
 NoConn ~ 9900 4350
 $Comp
-L stduinof429-rescue:CONN_01X03-stduinof429-rescue DEBUG1
+L stduinof429-rescue:CONN_01X03-stduinof429-rescue-stduinof429-rescue DEBUG1
 U 1 1 5DA2AA4A
 P 2700 3825
 F 0 "DEBUG1" V 2875 3825 50  0000 C CNN
@@ -1203,7 +1203,7 @@ F 3 "" H 2700 3825 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L stduinof429-rescue:CONN_01X04-stduinof429-rescue SWDIO/CLK1
+L stduinof429-rescue:CONN_01X04-stduinof429-rescue-stduinof429-rescue SWDIO/CLK1
 U 1 1 5DA2AAD5
 P 1825 3850
 F 0 "SWDIO/CLK1" V 2025 3825 50  0000 C CNN
@@ -1214,7 +1214,7 @@ F 3 "" H 1825 3850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L stduinof429-rescue:GND-power1-stduinof429-rescue #PWR026
+L stduinof429-rescue:GND-power1-stduinof429-rescue-stduinof429-rescue #PWR026
 U 1 1 5DA2AD8A
 P 1550 3600
 F 0 "#PWR026" H 1550 3350 50  0001 C CNN
@@ -1245,7 +1245,7 @@ UART_TX
 Text GLabel 3075 3825 2    39   BiDi ~ 0
 UART_RX
 $Comp
-L stduinof429-rescue:GND-power1-stduinof429-rescue #PWR027
+L stduinof429-rescue:GND-power1-stduinof429-rescue-stduinof429-rescue #PWR027
 U 1 1 5DA2C0EE
 P 2975 4000
 F 0 "#PWR027" H 2975 3750 50  0001 C CNN
@@ -1288,7 +1288,7 @@ Wire Notes Line
 Text Notes 13225 7475 0    59   ~ 12
 I2C ARDUINO SHIELD
 $Comp
-L stduinof429-rescue:+5V-power1-stduinof429-rescue #PWR028
+L stduinof429-rescue:+5V-power1-stduinof429-rescue-stduinof429-rescue #PWR028
 U 1 1 5DA2CFC9
 P 3125 7950
 F 0 "#PWR028" H 3125 7800 50  0001 C CNN
@@ -1355,7 +1355,7 @@ Wire Wire Line
 Wire Notes Line
 	3300 9525 3300 10050
 $Comp
-L stduinof429-rescue:Conn_02x03_Odd_Even-Connector_Generic1-stduinof429-rescue J1
+L stduinof429-rescue:Conn_02x03_Odd_Even-Connector_Generic1-stduinof429-rescue-stduinof429-rescue J1
 U 1 1 5DA3C61C
 P 2025 8925
 AR Path="/5DA3C61C" Ref="J1"  Part="1" 
@@ -1386,7 +1386,7 @@ PORTB
 Wire Notes Line
 	3300 9525 3350 9525
 $Comp
-L stduinof429-rescue:GND-power1-stduinof429-rescue #PWR029
+L stduinof429-rescue:GND-power1-stduinof429-rescue-stduinof429-rescue #PWR029
 U 1 1 5DA4532F
 P 1300 9175
 F 0 "#PWR029" H 1300 8925 50  0001 C CNN
@@ -1399,7 +1399,7 @@ $EndComp
 Wire Wire Line
 	1300 8925 1300 9175
 $Comp
-L stduinof429-rescue:GND-power1-stduinof429-rescue #PWR030
+L stduinof429-rescue:GND-power1-stduinof429-rescue-stduinof429-rescue #PWR030
 U 1 1 5DA45612
 P 2800 9175
 F 0 "#PWR030" H 2800 8925 50  0001 C CNN

@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source /home/debian/Progetti/ATARI/stduinof429/stduinof429.sch)
-    (date "Mon 22 Mar 2021 05:41:27 PM CET")
+    (source /home/gianluca/Progetti-CVS/ATARI/stduinof429/stduinof429.sch)
+    (date "Thu 25 Mar 2021 02:39:52 PM CET")
     (tool "Eeschema 5.1.9+dfsg1-1~bpo10+1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -412,6 +412,7 @@
       (tstamp 5DA3C61C))
     (comp (ref P10)
       (value Conn_02x20_Odd_Even)
+      (footprint RetroBitLab:IDC_02X20_2.54mm_Horizontal_PCB_2SIDES)
       (datasheet ~)
       (libsource (lib Connector_Generic) (part Conn_02x20_Odd_Even) (description "Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /pageMCU/) (tstamps /5DA2930A/))
@@ -852,7 +853,7 @@
     (library (logical Connector_Generic)
       (uri /usr/share/kicad/library/Connector_Generic.lib))
     (library (logical stduinof429-rescue)
-      (uri /home/debian/Progetti/ATARI/stduinof429/stduinof429-rescue.lib)))
+      (uri /home/gianluca/Progetti-CVS/ATARI/stduinof429/stduinof429-rescue.lib)))
   (nets
     (net (code 1) (name D11)
       (node (ref P2) (pin 4))
